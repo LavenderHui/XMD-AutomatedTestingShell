@@ -129,7 +129,7 @@ class Test_1:
         self.obj.click_clzpkm()
         self.obj.click_wanc()
         sleep(3)
-        self.obj.click_fanhu()
+        self.obj.click_fanhui()
 
     @allure.step(title="选择车辆颜色")
     def test_clys(self):
