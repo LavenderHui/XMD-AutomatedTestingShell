@@ -1,0 +1,53 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: ",
+      "children" : [ {
+        "name" : "Test_1.test_dybc",
+        "uid" : "fc4cce7a52ec5700",
+        "parentUid" : "fcd162b570a8b3223f492d623fcdc98d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1543307685238,
+          "stop" : 1543307697484,
+          "duration" : 12246
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_1.test_dy",
+        "uid" : "3679b4977b126e0",
+        "parentUid" : "fcd162b570a8b3223f492d623fcdc98d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1543307697488,
+          "stop" : 1543307705176,
+          "duration" : 7688
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fcd162b570a8b3223f492d623fcdc98d"
+    }, {
+      "name" : "TimeoutException: Message: \n",
+      "children" : [ {
+        "name" : "Test_1.test_fhz",
+        "uid" : "e3897daa4a467295",
+        "parentUid" : "c7921bd1d96bb0c1cc7bf067141c7988",
+        "status" : "failed",
+        "time" : {
+          "start" : 1543307721539,
+          "stop" : 1543307748833,
+          "duration" : 27294
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c7921bd1d96bb0c1cc7bf067141c7988"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

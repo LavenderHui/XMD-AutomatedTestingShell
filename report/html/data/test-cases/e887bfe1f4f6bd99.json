@@ -1,0 +1,60 @@
+{
+  "uid" : "e887bfe1f4f6bd99",
+  "name" : "Test_1.test_click_diashen",
+  "fullName" : "test_chcj.Test_1.test_click_diashen",
+  "historyId" : "a73347aed3de3eca79d512e0472caa6",
+  "time" : {
+    "start" : 1543307709535,
+    "stop" : 1543307717445,
+    "duration" : 7910
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-08IDGDC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "12448-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_chcj"
+  }, {
+    "name" : "testClass",
+    "value" : "test_chcj"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_1.test_click_diashen"
+  }, {
+    "name" : "package",
+    "value" : "test_chcj"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e887bfe1f4f6bd99.json",
+  "parameterValues" : [ ]
+}

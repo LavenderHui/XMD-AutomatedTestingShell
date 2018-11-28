@@ -1,0 +1,106 @@
+{
+  "uid" : "4c3e1ba2509a6664",
+  "name" : "Test_1.test_click",
+  "fullName" : "test_chcj.Test_1.test_click",
+  "historyId" : "e5b46628755130a1be90e1f7e234e654",
+  "time" : {
+    "start" : 1543307717448,
+    "stop" : 1543307721523,
+    "duration" : 4075
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "验证车源上传后待审列表是否存在该车源",
+      "time" : {
+        "start" : 1543307717451,
+        "stop" : 1543307721522,
+        "duration" : 4071
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "查看采集车源是否在待审列表",
+        "time" : {
+          "start" : 1543307717451,
+          "stop" : 1543307721522,
+          "duration" : 4071
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "edb4b7841908b74b",
+          "name" : "待审列表",
+          "source" : "edb4b7841908b74b.txt",
+          "type" : "text/plain",
+          "size" : 27
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-08IDGDC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "12448-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_chcj"
+  }, {
+    "name" : "testClass",
+    "value" : "test_chcj"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_1.test_click"
+  }, {
+    "name" : "package",
+    "value" : "test_chcj"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4c3e1ba2509a6664.json",
+  "parameterValues" : [ ]
+}

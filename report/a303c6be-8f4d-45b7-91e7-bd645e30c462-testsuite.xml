@@ -1,0 +1,1377 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1543375422273" stop="1543376241158">
+  <name>test_chcj</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1543375422273" status="passed" stop="1543375492788">
+      <name>Test_1.test_2</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543375422300" status="passed" stop="1543375465643">
+          <name>获取权限成功</name>
+          <title>获取权限成功</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1543375465644" status="passed" stop="1543375492786">
+          <name>输入账号密码</name>
+          <title>输入账号密码</title>
+          <attachments>
+            <attachment source="ecdd5d29-61c1-4a63-8d17-9d70f1a7e8e7-attachment.txt" title="用户登陆信息：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543375492796" status="passed" stop="1543375499863">
+      <name>Test_1.test_1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543375492799" status="passed" stop="1543375499862">
+          <name>点击登录</name>
+          <title>点击登录</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543375499866" status="passed" stop="1543375505108">
+      <name>Test_1.test_qx</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543375499870" status="passed" stop="1543375505107">
+          <name>点击取消更新</name>
+          <title>点击取消更新</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543375505112" status="passed" stop="1543375515135">
+      <name>Test_1.test_3</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543375505116" status="passed" stop="1543375515134">
+          <name>车源采集入口</name>
+          <title>车源采集入口</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543375515144" status="passed" stop="1543375523036">
+      <name>Test_1.test_4</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543375515147" status="passed" stop="1543375523036">
+          <name>点击搜索门店</name>
+          <title>点击搜索门店</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543375523039" status="passed" stop="1543375536432">
+      <name>Test_1.test_5</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543375523042" status="passed" stop="1543375536431">
+          <name>选择门店门店</name>
+          <title>选择门店门店</title>
+          <attachments>
+            <attachment source="02e511ed-2ed9-4d1c-a199-2fdea9b9ecf3-attachment.txt" title="选择的门店是:" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543375536444" status="passed" stop="1543375554666">
+      <name>Test_1.test_xj</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543375536447" status="passed" stop="1543375554665">
+          <name>拍摄vim照片</name>
+          <title>拍摄vim照片</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543375554671" status="passed" stop="1543375575081">
+      <name>Test_1.test_fou</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543375554678" status="passed" stop="1543375575080">
+          <name>选择不识别vin码</name>
+          <title>选择不识别vin码</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543375575084" status="passed" stop="1543375606378">
+      <name>Test_1.test_bxl</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543375575087" status="passed" stop="1543375606377">
+          <name>输入表显历程和vin码</name>
+          <title>输入表显历程和vin码</title>
+          <attachments>
+            <attachment source="7611f582-0faf-4da7-9610-a5624dbea9d8-attachment.txt" title="采集车源信息：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543375606382" status="passed" stop="1543375630906">
+      <name>Test_1.test_cxm</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543375606383" status="passed" stop="1543375630905">
+          <name>选择车型</name>
+          <title>选择车型</title>
+          <attachments>
+            <attachment source="f772bc0d-dd73-42c4-9a4b-5d2ca2daed46-attachment.txt" title="车型选择信息：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543375630916" status="passed" stop="1543375649884">
+      <name>Test_1.test_bxxj</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543375630919" status="passed" stop="1543375649883">
+          <name>点击表显相机</name>
+          <title>点击表显相机</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543375649888" status="passed" stop="1543375655031">
+      <name>Test_1.test_cyxj</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543375649893" status="passed" stop="1543375655031">
+          <name>点击车源相机</name>
+          <title>点击车源相机</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543375655033" status="failed" stop="1543376035199">
+      <name>Test_1.test_clzp</name>
+      <failure>
+        <message>AttributeError: 'search' object has no attribute 'click_fanhu'</message>
+        <stack-trace>self = &lt;test_chcj.Test_1 object at 0x0000013FC1B186D8&gt;
+
+    @allure.step(title="拍摄车辆照片")
+    def test_clzp(self):
+        self.obj.click_clzp1()
+        self.obj.click_clzpkm()
+        self.obj.click_clzp2()
+        self.obj.click_xzxj()
+        self.obj.click_clzpkm()
+        self.obj.click_wanc()
+        self.obj.click_clzp3()
+        self.obj.click_xzxj()
+        self.obj.click_clzpkm()
+        self.obj.click_wanc()
+        self.obj.click_clzp4()
+        self.obj.click_xzxj()
+        self.obj.click_clzpkm()
+        self.obj.click_wanc()
+        self.obj.click_clzp5()
+        self.obj.click_xzxj()
+        self.obj.click_clzpkm()
+        self.obj.click_wanc()
+        self.obj.click_clzp6()
+        self.obj.click_xzxj()
+        self.obj.click_clzpkm()
+        self.obj.click_wanc()
+        self.obj.click_clzp7()
+        self.obj.click_xzxj()
+        self.obj.click_clzpkm()
+        self.obj.click_wanc()
+        self.obj.click_clzp8()
+        self.obj.click_xzxj()
+        self.obj.click_clzpkm()
+        self.obj.click_wanc()
+        self.obj.click_clzp9()
+        self.obj.click_xzxj()
+        self.obj.click_clzpkm()
+        self.obj.click_wanc()
+        self.obj.click_clzp10()
+        self.obj.click_xzxj()
+        self.obj.click_clzpkm()
+        self.obj.click_wanc()
+        self.obj.click_clzp11()
+        self.obj.click_xzxj()
+        self.obj.click_clzpkm()
+        self.obj.click_wanc()
+        self.obj.click_clzp12()
+        self.obj.click_xzxj()
+        self.obj.click_clzpkm()
+        self.obj.click_wanc()
+        self.obj.click_clzp13()
+        self.obj.click_xzxj()
+        self.obj.click_clzpkm()
+        self.obj.click_wanc()
+        self.obj.click_clzp14()
+        self.obj.click_xzxj()
+        self.obj.click_clzpkm()
+        self.obj.click_wanc()
+        self.obj.click_clzp15()
+        self.obj.click_xzxj()
+        self.obj.click_clzpkm()
+        self.obj.click_wanc()
+        self.obj.click_clzp16()
+        self.obj.click_xzxj()
+        self.obj.click_clzpkm()
+        self.obj.click_wanc()
+        sleep(3)
+&gt;       self.obj.click_fanhu()
+E       AttributeError: 'search' object has no attribute 'click_fanhu'
+
+Scripts\test_chcj.py:132: AttributeError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543375655035" status="failed" stop="1543376035044">
+          <name>拍摄车辆照片</name>
+          <title>拍摄车辆照片</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543376035201" status="failed" stop="1543376053586">
+      <name>Test_1.test_clys</name>
+      <failure>
+        <message>TimeoutException: Message: 
+</message>
+        <stack-trace>self = &lt;test_chcj.Test_1 object at 0x0000013FC1BA3128&gt;
+
+    @allure.step(title="选择车辆颜色")
+    def test_clys(self):
+&gt;       self.obj.click_cys()
+
+Scripts\test_chcj.py:136: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+Page\xmd_cycj.py:165: in click_cys
+    self.click_element(Page.cys)
+Base\Base.py:45: in click_element
+    self.search_element(loc).click()
+Base\Base.py:23: in search_element
+    return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="c9599431-dcbe-4c21-86a9-c9a75c75106f")&gt;
+method = &lt;function Base.search_element.&lt;locals&gt;.&lt;lambda&gt; at 0x0000013FC1B6CC80&gt;, message = ''
+
+    def until(self, method, message=''):
+        """Calls the method provided with the driver as an argument until the \
+        return value is not False."""
+        screen = None
+        stacktrace = None
+    
+        end_time = time.time() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, 'screen', None)
+                stacktrace = getattr(exc, 'stacktrace', None)
+            time.sleep(self._poll)
+            if time.time() &gt; end_time:
+                break
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message:
+
+d:\software\python3.6\lib\site-packages\selenium\webdriver\support\wait.py:80: TimeoutException</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543376035203" status="failed" stop="1543376053534">
+          <name>选择车辆颜色</name>
+          <title>选择车辆颜色</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543376053597" status="passed" stop="1543376072786">
+      <name>Test_1.test_nsys</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543376053598" status="passed" stop="1543376072785">
+          <name>选择车内饰颜色</name>
+          <title>选择车内饰颜色</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543376072789" status="passed" stop="1543376082640">
+      <name>Test_1.test_clxz</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543376072793" status="passed" stop="1543376082639">
+          <name>选择车辆性质</name>
+          <title>选择车辆性质</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543376082640" status="passed" stop="1543376092984">
+      <name>Test_1.test_cllb</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543376082643" status="passed" stop="1543376092984">
+          <name>选择车辆类别</name>
+          <title>选择车辆类别</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543376092985" status="passed" stop="1543376102845">
+      <name>Test_1.test_cdrq</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543376092987" status="passed" stop="1543376102845">
+          <name>选择初登日期</name>
+          <title>选择初登日期</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543376102846" status="failed" stop="1543376118531">
+      <name>Test_1.test_sj</name>
+      <failure>
+        <message>TimeoutException: Message: 
+</message>
+        <stack-trace>self = &lt;test_chcj.Test_1 object at 0x0000013FC1BCE470&gt;
+
+    @allure.step(title="填写售价")
+    def test_sj(self):
+&gt;       self.obj.input_sj()
+
+Scripts\test_chcj.py:160: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+Page\xmd_cycj.py:190: in input_sj
+    self.input_element(Page.sj, jiage)
+Base\Base.py:54: in input_element
+    input_text = self.search_element(loc)
+Base\Base.py:23: in search_element
+    return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="c9599431-dcbe-4c21-86a9-c9a75c75106f")&gt;
+method = &lt;function Base.search_element.&lt;locals&gt;.&lt;lambda&gt; at 0x0000013FC1B481E0&gt;, message = ''
+
+    def until(self, method, message=''):
+        """Calls the method provided with the driver as an argument until the \
+        return value is not False."""
+        screen = None
+        stacktrace = None
+    
+        end_time = time.time() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, 'screen', None)
+                stacktrace = getattr(exc, 'stacktrace', None)
+            time.sleep(self._poll)
+            if time.time() &gt; end_time:
+                break
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message:
+
+d:\software\python3.6\lib\site-packages\selenium\webdriver\support\wait.py:80: TimeoutException</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543376102848" status="failed" stop="1543376118506">
+          <name>填写售价</name>
+          <title>填写售价</title>
+          <attachments>
+            <attachment source="d5b2d4c2-ebe6-47db-a1a5-110ce1c34f07-attachment.txt" title="车辆价格:" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543376118535" status="failed" stop="1543376134819">
+      <name>Test_1.test_clbz</name>
+      <failure>
+        <message>TimeoutException: Message: 
+</message>
+        <stack-trace>self = &lt;test_chcj.Test_1 object at 0x0000013FC1BC42B0&gt;
+
+    @allure.step(title="填写车辆备注")
+    def test_clbz(self):
+&gt;       self.obj.input_clbz()
+
+Scripts\test_chcj.py:164: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+Page\xmd_cycj.py:194: in input_clbz
+    self.input_element(Page.shbz, beizhu)
+Base\Base.py:54: in input_element
+    input_text = self.search_element(loc)
+Base\Base.py:23: in search_element
+    return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="c9599431-dcbe-4c21-86a9-c9a75c75106f")&gt;
+method = &lt;function Base.search_element.&lt;locals&gt;.&lt;lambda&gt; at 0x0000013FC1B48158&gt;, message = ''
+
+    def until(self, method, message=''):
+        """Calls the method provided with the driver as an argument until the \
+        return value is not False."""
+        screen = None
+        stacktrace = None
+    
+        end_time = time.time() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, 'screen', None)
+                stacktrace = getattr(exc, 'stacktrace', None)
+            time.sleep(self._poll)
+            if time.time() &gt; end_time:
+                break
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message:
+
+d:\software\python3.6\lib\site-packages\selenium\webdriver\support\wait.py:80: TimeoutException</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543376118536" status="failed" stop="1543376134771">
+          <name>填写车辆备注</name>
+          <title>填写车辆备注</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543376134821" status="passed" stop="1543376145848">
+      <name>Test_1.test_sc</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543376134822" status="passed" stop="1543376145845">
+          <name>点击保存按钮</name>
+          <title>点击保存按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543376145854" status="failed" stop="1543376152578">
+      <name>Test_1.test_dybc</name>
+      <failure>
+        <message>AssertionError: </message>
+        <stack-trace>self = &lt;Page.xmd_cycj.search object at 0x0000013FC0CBCCF8&gt;, message = '小马达：保存', yuqi = '小马达：保存成功'
+
+    def get_toast(self, message, yuqi):
+        try:
+            xpath = "//*[contains(@text,'{}')]".format(message)
+&gt;           toast_message = self.search_element((By.XPATH, xpath), timeout=5, poll=0.1).text
+
+Base\Base.py:82: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;Page.xmd_cycj.search object at 0x0000013FC0CBCCF8&gt;, loc = ('xpath', "//*[contains(@text,'小马达：保存')]"), timeout = 5, poll = 0.1
+
+    def search_element(self, loc, timeout=15, poll=1.0):
+    
+        """
+        定位单个元素 - 显示等待
+        :param loc: 元祖 (定位类型，类型属性值) 例子:(By.ID,"com.xx.xx")
+        :param timeout: 超时时间
+        :param poll: 搜索间隔
+        :return: 定位对象
+        """
+&gt;       return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))
+
+Base\Base.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="c9599431-dcbe-4c21-86a9-c9a75c75106f")&gt;
+method = &lt;function Base.search_element.&lt;locals&gt;.&lt;lambda&gt; at 0x0000013FC1B48950&gt;, message = ''
+
+    def until(self, method, message=''):
+        """Calls the method provided with the driver as an argument until the \
+        return value is not False."""
+        screen = None
+        stacktrace = None
+    
+        end_time = time.time() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, 'screen', None)
+                stacktrace = getattr(exc, 'stacktrace', None)
+            time.sleep(self._poll)
+            if time.time() &gt; end_time:
+                break
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message:
+
+d:\software\python3.6\lib\site-packages\selenium\webdriver\support\wait.py:80: TimeoutException
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;test_chcj.Test_1 object at 0x0000013FC1BF2208&gt;
+
+    @allure.step(title="断言保存")
+    def test_dybc(self):
+&gt;       self.obj.get_toastscy("小马达：保存", "小马达：保存成功")
+
+Scripts\test_chcj.py:173: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+d:\software\python3.6\lib\site-packages\allure\common.py:62: in impl
+    return func(*a, **kw)
+Page\xmd_cycj.py:208: in get_toastscy
+    self.get_toast(message, yuqi)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;Page.xmd_cycj.search object at 0x0000013FC0CBCCF8&gt;, message = '小马达：保存', yuqi = '小马达：保存成功'
+
+    def get_toast(self, message, yuqi):
+        try:
+            xpath = "//*[contains(@text,'{}')]".format(message)
+            toast_message = self.search_element((By.XPATH, xpath), timeout=5, poll=0.1).text
+            print(toast_message)
+            assert toast_message == yuqi
+            allure.attach("用例状态:", "成功")
+        except Exception as e:
+            self.get_screen()
+&gt;           assert 1 == 2
+E           AssertionError
+
+Base\Base.py:88: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543376145859" status="failed" stop="1543376152539">
+          <name>断言保存</name>
+          <title>断言保存</title>
+          <attachments/>
+          <steps>
+            <step start="1543376145859" status="failed" stop="1543376152539">
+              <name>获取toast消息</name>
+              <title>获取toast消息</title>
+              <attachments>
+                <attachment source="62b395cb-aeb3-4699-893f-0f49906dd679-attachment.png" title="截图名字" type="image/png"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543376152583" status="failed" stop="1543376158931">
+      <name>Test_1.test_dy</name>
+      <failure>
+        <message>AssertionError: </message>
+        <stack-trace>self = &lt;Page.xmd_cycj.search object at 0x0000013FC0CBCCF8&gt;, message = '小马达：上传', yuqi = '小马达：上传车辆成功'
+
+    def get_toast(self, message, yuqi):
+        try:
+            xpath = "//*[contains(@text,'{}')]".format(message)
+&gt;           toast_message = self.search_element((By.XPATH, xpath), timeout=5, poll=0.1).text
+
+Base\Base.py:82: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;Page.xmd_cycj.search object at 0x0000013FC0CBCCF8&gt;, loc = ('xpath', "//*[contains(@text,'小马达：上传')]"), timeout = 5, poll = 0.1
+
+    def search_element(self, loc, timeout=15, poll=1.0):
+    
+        """
+        定位单个元素 - 显示等待
+        :param loc: 元祖 (定位类型，类型属性值) 例子:(By.ID,"com.xx.xx")
+        :param timeout: 超时时间
+        :param poll: 搜索间隔
+        :return: 定位对象
+        """
+&gt;       return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))
+
+Base\Base.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="c9599431-dcbe-4c21-86a9-c9a75c75106f")&gt;
+method = &lt;function Base.search_element.&lt;locals&gt;.&lt;lambda&gt; at 0x0000013FC1B48D90&gt;, message = ''
+
+    def until(self, method, message=''):
+        """Calls the method provided with the driver as an argument until the \
+        return value is not False."""
+        screen = None
+        stacktrace = None
+    
+        end_time = time.time() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, 'screen', None)
+                stacktrace = getattr(exc, 'stacktrace', None)
+            time.sleep(self._poll)
+            if time.time() &gt; end_time:
+                break
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message:
+
+d:\software\python3.6\lib\site-packages\selenium\webdriver\support\wait.py:80: TimeoutException
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;test_chcj.Test_1 object at 0x0000013FC1C17BA8&gt;
+
+    @allure.step(title="断言上传成功toals")
+    def test_dy(self):
+&gt;       self.obj.get_toastscy("小马达：上传", "小马达：上传车辆成功")
+
+Scripts\test_chcj.py:177: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+d:\software\python3.6\lib\site-packages\allure\common.py:62: in impl
+    return func(*a, **kw)
+Page\xmd_cycj.py:208: in get_toastscy
+    self.get_toast(message, yuqi)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;Page.xmd_cycj.search object at 0x0000013FC0CBCCF8&gt;, message = '小马达：上传', yuqi = '小马达：上传车辆成功'
+
+    def get_toast(self, message, yuqi):
+        try:
+            xpath = "//*[contains(@text,'{}')]".format(message)
+            toast_message = self.search_element((By.XPATH, xpath), timeout=5, poll=0.1).text
+            print(toast_message)
+            assert toast_message == yuqi
+            allure.attach("用例状态:", "成功")
+        except Exception as e:
+            self.get_screen()
+&gt;           assert 1 == 2
+E           AssertionError
+
+Base\Base.py:88: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543376152585" status="failed" stop="1543376158883">
+          <name>断言上传成功toals</name>
+          <title>断言上传成功toals</title>
+          <attachments/>
+          <steps>
+            <step start="1543376152585" status="failed" stop="1543376158883">
+              <name>获取toast消息</name>
+              <title>获取toast消息</title>
+              <attachments>
+                <attachment source="5c391aea-3797-4268-94fb-c12290d4cf57-attachment.png" title="截图名字" type="image/png"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543376158935" status="failed" stop="1543376174290">
+      <name>Test_1.test_click_bohui</name>
+      <failure>
+        <message>TimeoutException: Message: 
+</message>
+        <stack-trace>self = &lt;test_chcj.Test_1 object at 0x0000013FC1C20A20&gt;
+
+    @allure.step(title="点击驳回")
+    def test_click_bohui(self):
+&gt;       self.obj.click_bohui()
+
+Scripts\test_chcj.py:182: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+d:\software\python3.6\lib\site-packages\allure\common.py:62: in impl
+    return func(*a, **kw)
+Page\xmd_cycj.py:213: in click_bohui
+    self.click_element(Page.bohui)
+Base\Base.py:45: in click_element
+    self.search_element(loc).click()
+Base\Base.py:23: in search_element
+    return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="c9599431-dcbe-4c21-86a9-c9a75c75106f")&gt;
+method = &lt;function Base.search_element.&lt;locals&gt;.&lt;lambda&gt; at 0x0000013FC1BE2158&gt;, message = ''
+
+    def until(self, method, message=''):
+        """Calls the method provided with the driver as an argument until the \
+        return value is not False."""
+        screen = None
+        stacktrace = None
+    
+        end_time = time.time() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, 'screen', None)
+                stacktrace = getattr(exc, 'stacktrace', None)
+            time.sleep(self._poll)
+            if time.time() &gt; end_time:
+                break
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message:
+
+d:\software\python3.6\lib\site-packages\selenium\webdriver\support\wait.py:80: TimeoutException</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543376158937" status="failed" stop="1543376174249">
+          <name>点击驳回</name>
+          <title>点击驳回</title>
+          <attachments/>
+          <steps>
+            <step start="1543376158937" status="failed" stop="1543376174249">
+              <name>获取toast消息</name>
+              <title>获取toast消息</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543376174291" status="failed" stop="1543376190563">
+      <name>Test_1.test_click_diashen</name>
+      <failure>
+        <message>TimeoutException: Message: 
+</message>
+        <stack-trace>self = &lt;test_chcj.Test_1 object at 0x0000013FC1C52358&gt;
+
+    def test_click_diashen(self):
+&gt;       self.obj.click_daishen()
+
+Scripts\test_chcj.py:185: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+Page\xmd_cycj.py:217: in click_daishen
+    self.click_element(Page.daishen)
+Base\Base.py:45: in click_element
+    self.search_element(loc).click()
+Base\Base.py:23: in search_element
+    return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="c9599431-dcbe-4c21-86a9-c9a75c75106f")&gt;
+method = &lt;function Base.search_element.&lt;locals&gt;.&lt;lambda&gt; at 0x0000013FC1BE2510&gt;, message = ''
+
+    def until(self, method, message=''):
+        """Calls the method provided with the driver as an argument until the \
+        return value is not False."""
+        screen = None
+        stacktrace = None
+    
+        end_time = time.time() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, 'screen', None)
+                stacktrace = getattr(exc, 'stacktrace', None)
+            time.sleep(self._poll)
+            if time.time() &gt; end_time:
+                break
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message:
+
+d:\software\python3.6\lib\site-packages\selenium\webdriver\support\wait.py:80: TimeoutException</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543376190565" status="failed" stop="1543376207918">
+      <name>Test_1.test_click</name>
+      <failure>
+        <message>TimeoutException: Message: 
+</message>
+        <stack-trace>self = &lt;test_chcj.Test_1 object at 0x0000013FC1B805C0&gt;
+
+    @allure.step(title="验证车源上传后待审列表是否存在该车源")
+    def test_click(self):
+&gt;       self.obj.element_vin()
+
+Scripts\test_chcj.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+d:\software\python3.6\lib\site-packages\allure\common.py:62: in impl
+    return func(*a, **kw)
+Page\xmd_cycj.py:222: in element_vin
+    res_list = self.search_elements(Page.vinxianshi)
+Base\Base.py:33: in search_elements
+    return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_elements(*loc))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="c9599431-dcbe-4c21-86a9-c9a75c75106f")&gt;
+method = &lt;function Base.search_elements.&lt;locals&gt;.&lt;lambda&gt; at 0x0000013FC1BE2598&gt;, message = ''
+
+    def until(self, method, message=''):
+        """Calls the method provided with the driver as an argument until the \
+        return value is not False."""
+        screen = None
+        stacktrace = None
+    
+        end_time = time.time() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, 'screen', None)
+                stacktrace = getattr(exc, 'stacktrace', None)
+            time.sleep(self._poll)
+            if time.time() &gt; end_time:
+                break
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message:
+
+d:\software\python3.6\lib\site-packages\selenium\webdriver\support\wait.py:80: TimeoutException</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543376190567" status="failed" stop="1543376207856">
+          <name>验证车源上传后待审列表是否存在该车源</name>
+          <title>验证车源上传后待审列表是否存在该车源</title>
+          <attachments/>
+          <steps>
+            <step start="1543376190567" status="failed" stop="1543376207856">
+              <name>查看采集车源是否在待审列表</name>
+              <title>查看采集车源是否在待审列表</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543376207920" status="failed" stop="1543376224084">
+      <name>Test_1.test_fhz</name>
+      <failure>
+        <message>TimeoutException: Message: 
+</message>
+        <stack-trace>self = &lt;test_chcj.Test_1 object at 0x0000013FC1C48FD0&gt;
+
+    @allure.step(title="返回上一级")
+    def test_fhz(self):
+&gt;       self.obj.click_fanhui()
+
+Scripts\test_chcj.py:193: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+Page\xmd_cycj.py:161: in click_fanhui
+    self.click_element(Page.fanhui)
+Base\Base.py:45: in click_element
+    self.search_element(loc).click()
+Base\Base.py:23: in search_element
+    return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="c9599431-dcbe-4c21-86a9-c9a75c75106f")&gt;
+method = &lt;function Base.search_element.&lt;locals&gt;.&lt;lambda&gt; at 0x0000013FC1BE2048&gt;, message = ''
+
+    def until(self, method, message=''):
+        """Calls the method provided with the driver as an argument until the \
+        return value is not False."""
+        screen = None
+        stacktrace = None
+    
+        end_time = time.time() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, 'screen', None)
+                stacktrace = getattr(exc, 'stacktrace', None)
+            time.sleep(self._poll)
+            if time.time() &gt; end_time:
+                break
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message:
+
+d:\software\python3.6\lib\site-packages\selenium\webdriver\support\wait.py:80: TimeoutException</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543376207921" status="failed" stop="1543376224022">
+          <name>返回上一级</name>
+          <title>返回上一级</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543376224086" status="failed" stop="1543376225053">
+      <name>Test_1.test_hd</name>
+      <failure>
+        <message>WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Swipe did not complete successfully
+</message>
+        <stack-trace>self = &lt;test_chcj.Test_1 object at 0x0000013FC1BB31D0&gt;
+
+    @allure.step(title="屏幕下滑")
+    def test_hd(self):
+&gt;       self.obj.slide(859, 1506, 859, 1164, 1000)
+
+Scripts\test_chcj.py:198: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+Base\Base.py:68: in slide
+    return self.driver.swipe(startx, starty, endx, endy, duration)
+d:\software\python3.6\lib\site-packages\appium\webdriver\webdriver.py:508: in swipe
+    action.perform()
+d:\software\python3.6\lib\site-packages\appium\webdriver\common\touch_action.py:94: in perform
+    self._driver.execute(Command.TOUCH_ACTION, params)
+d:\software\python3.6\lib\site-packages\selenium\webdriver\remote\webdriver.py:320: in execute
+    self.error_handler.check_response(response)
+d:\software\python3.6\lib\site-packages\appium\webdriver\errorhandler.py:29: in check_response
+    raise wde
+d:\software\python3.6\lib\site-packages\appium\webdriver\errorhandler.py:24: in check_response
+    super(MobileErrorHandler, self).check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;appium.webdriver.errorhandler.MobileErrorHandler object at 0x0000013FC1AC2048&gt;
+response = {'status': 500, 'value': '{"value":{"error":"unknown error","message":"An unknown server-side error occurred while pro...\\\\core-js\\\\modules\\\\_microtask.js:18:1)\\n    at process._tickCallback (internal/process/next_tick.js:61:11)"}}'}
+
+    def check_response(self, response):
+        """
+        Checks that a JSON response from the WebDriver does not have an error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get('status', None)
+        if status is None or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get('value', None)
+            if value_json and isinstance(value_json, basestring):
+                import json
+                try:
+                    value = json.loads(value_json)
+                    if len(value.keys()) == 1:
+                        value = value['value']
+                    status = value.get('error', None)
+                    if status is None:
+                        status = value["status"]
+                        message = value["value"]
+                        if not isinstance(message, basestring):
+                            value = message
+                            message = message.get('message')
+                    else:
+                        message = value.get('message', None)
+                except ValueError:
+                    pass
+    
+        exception_class = ErrorInResponseException
+        if status in ErrorCode.NO_SUCH_ELEMENT:
+            exception_class = NoSuchElementException
+        elif status in ErrorCode.NO_SUCH_FRAME:
+            exception_class = NoSuchFrameException
+        elif status in ErrorCode.NO_SUCH_WINDOW:
+            exception_class = NoSuchWindowException
+        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:
+            exception_class = StaleElementReferenceException
+        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:
+            exception_class = ElementNotVisibleException
+        elif status in ErrorCode.INVALID_ELEMENT_STATE:
+            exception_class = InvalidElementStateException
+        elif status in ErrorCode.INVALID_SELECTOR \
+                or status in ErrorCode.INVALID_XPATH_SELECTOR \
+                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:
+            exception_class = InvalidSelectorException
+        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:
+            exception_class = ElementNotSelectableException
+        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:
+            exception_class = ElementNotInteractableException
+        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:
+            exception_class = InvalidCookieDomainException
+        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:
+            exception_class = UnableToSetCookieException
+        elif status in ErrorCode.TIMEOUT:
+            exception_class = TimeoutException
+        elif status in ErrorCode.SCRIPT_TIMEOUT:
+            exception_class = TimeoutException
+        elif status in ErrorCode.UNKNOWN_ERROR:
+            exception_class = WebDriverException
+        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:
+            exception_class = UnexpectedAlertPresentException
+        elif status in ErrorCode.NO_ALERT_OPEN:
+            exception_class = NoAlertPresentException
+        elif status in ErrorCode.IME_NOT_AVAILABLE:
+            exception_class = ImeNotAvailableException
+        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:
+            exception_class = ImeActivationFailedException
+        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:
+            exception_class = MoveTargetOutOfBoundsException
+        elif status in ErrorCode.JAVASCRIPT_ERROR:
+            exception_class = JavascriptException
+        elif status in ErrorCode.SESSION_NOT_CREATED:
+            exception_class = SessionNotCreatedException
+        elif status in ErrorCode.INVALID_ARGUMENT:
+            exception_class = InvalidArgumentException
+        elif status in ErrorCode.NO_SUCH_COOKIE:
+            exception_class = NoSuchCookieException
+        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:
+            exception_class = ScreenshotException
+        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:
+            exception_class = ElementClickInterceptedException
+        elif status in ErrorCode.INSECURE_CERTIFICATE:
+            exception_class = InsecureCertificateException
+        elif status in ErrorCode.INVALID_COORDINATES:
+            exception_class = InvalidCoordinatesException
+        elif status in ErrorCode.INVALID_SESSION_ID:
+            exception_class = InvalidSessionIdException
+        elif status in ErrorCode.UNKNOWN_METHOD:
+            exception_class = UnknownMethodException
+        else:
+            exception_class = WebDriverException
+        if value == '' or value is None:
+            value = response['value']
+        if isinstance(value, basestring):
+            if exception_class == ErrorInResponseException:
+                raise exception_class(response, value)
+            raise exception_class(value)
+        if message == "" and 'message' in value:
+            message = value['message']
+    
+        screen = None
+        if 'screen' in value:
+            screen = value['screen']
+    
+        stacktrace = None
+        if 'stackTrace' in value and value['stackTrace']:
+            stacktrace = []
+            try:
+                for frame in value['stackTrace']:
+                    line = self._value_or_default(frame, 'lineNumber', '')
+                    file = self._value_or_default(frame, 'fileName', '&lt;anonymous&gt;')
+                    if line:
+                        file = "%s:%s" % (file, line)
+                    meth = self._value_or_default(frame, 'methodName', '&lt;anonymous&gt;')
+                    if 'className' in frame:
+                        meth = "%s.%s" % (frame['className'], meth)
+                    msg = "    at %s (%s)"
+                    msg = msg % (meth, file)
+                    stacktrace.append(msg)
+            except TypeError:
+                pass
+        if exception_class == ErrorInResponseException:
+            raise exception_class(response, message)
+        elif exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if 'data' in value:
+                alert_text = value['data'].get('text')
+            elif 'alert' in value:
+                alert_text = value['alert'].get('text')
+            raise exception_class(message, screen, stacktrace, alert_text)
+&gt;       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Swipe did not complete successfully
+
+d:\software\python3.6\lib\site-packages\selenium\webdriver\remote\errorhandler.py:242: WebDriverException</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543376224087" status="failed" stop="1543376224922">
+          <name>屏幕下滑</name>
+          <title>屏幕下滑</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543376225054" status="failed" stop="1543376241158">
+      <name>Test_1.test_tuichudenglu</name>
+      <failure>
+        <message>TimeoutException: Message: 
+</message>
+        <stack-trace>self = &lt;test_chcj.Test_1 object at 0x0000013FC1E1C9E8&gt;
+
+    @allure.step(title="退出")
+    def test_tuichudenglu(self):
+&gt;       self.obj.click_tuichu()
+
+Scripts\test_chcj.py:202: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+Page\xmd_cycj.py:240: in click_tuichu
+    self.click_element(Page.esc)
+Base\Base.py:45: in click_element
+    self.search_element(loc).click()
+Base\Base.py:23: in search_element
+    return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="c9599431-dcbe-4c21-86a9-c9a75c75106f")&gt;
+method = &lt;function Base.search_element.&lt;locals&gt;.&lt;lambda&gt; at 0x0000013FC1D26B70&gt;, message = ''
+
+    def until(self, method, message=''):
+        """Calls the method provided with the driver as an argument until the \
+        return value is not False."""
+        screen = None
+        stacktrace = None
+    
+        end_time = time.time() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, 'screen', None)
+                stacktrace = getattr(exc, 'stacktrace', None)
+            time.sleep(self._poll)
+            if time.time() &gt; end_time:
+                break
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message:
+
+d:\software\python3.6\lib\site-packages\selenium\webdriver\support\wait.py:80: TimeoutException</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1204-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543376225056" status="failed" stop="1543376241109">
+          <name>退出</name>
+          <title>退出</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

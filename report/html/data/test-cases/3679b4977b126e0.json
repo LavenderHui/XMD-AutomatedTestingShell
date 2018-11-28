@@ -1,0 +1,116 @@
+{
+  "uid" : "3679b4977b126e0",
+  "name" : "Test_1.test_dy",
+  "fullName" : "test_chcj.Test_1.test_dy",
+  "historyId" : "1ccf27aa0b3b3ad07529ff209a77fd01",
+  "time" : {
+    "start" : 1543307697488,
+    "stop" : 1543307705176,
+    "duration" : 7688
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: ",
+  "statusTrace" : "self = <Page.xmd_cycj.search object at 0x0000017BA1BE5940>, message = '小马达：上传', yuqi = '小马达：上传车辆成功'\n\n    def get_toast(self, message, yuqi):\n        try:\n            xpath = \"//*[contains(@text,'{}')]\".format(message)\n>           toast_message = self.search_element((By.XPATH, xpath), timeout=5, poll=0.1).text\n\nBase\\Base.py:82: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Page.xmd_cycj.search object at 0x0000017BA1BE5940>, loc = ('xpath', \"//*[contains(@text,'小马达：上传')]\"), timeout = 5, poll = 0.1\n\n    def search_element(self, loc, timeout=15, poll=1.0):\n    \n        \"\"\"\n        定位单个元素 - 显示等待\n        :param loc: 元祖 (定位类型，类型属性值) 例子:(By.ID,\"com.xx.xx\")\n        :param timeout: 超时时间\n        :param poll: 搜索间隔\n        :return: 定位对象\n        \"\"\"\n>       return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))\n\nBase\\Base.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"b9cc39ee-3735-466f-8018-63241ba15e45\")>\nmethod = <function Base.search_element.<locals>.<lambda> at 0x0000017BA1DBF950>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\software\\python3.6\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException\n\nDuring handling of the above exception, another exception occurred:\n\nself = <test_chcj.Test_1 object at 0x0000017BA1E62BA8>\n\n    @allure.step(title=\"断言上传成功toals\")\n    def test_dy(self):\n>       self.obj.get_toastscy(\"小马达：上传\", \"小马达：上传车辆成功\")\n\nScripts\\test_chcj.py:177: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nd:\\software\\python3.6\\lib\\site-packages\\allure\\common.py:62: in impl\n    return func(*a, **kw)\nPage\\xmd_cycj.py:208: in get_toastscy\n    self.get_toast(message, yuqi)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Page.xmd_cycj.search object at 0x0000017BA1BE5940>, message = '小马达：上传', yuqi = '小马达：上传车辆成功'\n\n    def get_toast(self, message, yuqi):\n        try:\n            xpath = \"//*[contains(@text,'{}')]\".format(message)\n            toast_message = self.search_element((By.XPATH, xpath), timeout=5, poll=0.1).text\n            print(toast_message)\n            assert toast_message == yuqi\n            allure.attach(\"用例状态:\", \"成功\")\n        except Exception as e:\n            self.get_screen()\n>           assert 1 == 2\nE           AssertionError\n\nBase\\Base.py:88: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: ",
+    "statusTrace" : "self = <Page.xmd_cycj.search object at 0x0000017BA1BE5940>, message = '小马达：上传', yuqi = '小马达：上传车辆成功'\n\n    def get_toast(self, message, yuqi):\n        try:\n            xpath = \"//*[contains(@text,'{}')]\".format(message)\n>           toast_message = self.search_element((By.XPATH, xpath), timeout=5, poll=0.1).text\n\nBase\\Base.py:82: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Page.xmd_cycj.search object at 0x0000017BA1BE5940>, loc = ('xpath', \"//*[contains(@text,'小马达：上传')]\"), timeout = 5, poll = 0.1\n\n    def search_element(self, loc, timeout=15, poll=1.0):\n    \n        \"\"\"\n        定位单个元素 - 显示等待\n        :param loc: 元祖 (定位类型，类型属性值) 例子:(By.ID,\"com.xx.xx\")\n        :param timeout: 超时时间\n        :param poll: 搜索间隔\n        :return: 定位对象\n        \"\"\"\n>       return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))\n\nBase\\Base.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"b9cc39ee-3735-466f-8018-63241ba15e45\")>\nmethod = <function Base.search_element.<locals>.<lambda> at 0x0000017BA1DBF950>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\software\\python3.6\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException\n\nDuring handling of the above exception, another exception occurred:\n\nself = <test_chcj.Test_1 object at 0x0000017BA1E62BA8>\n\n    @allure.step(title=\"断言上传成功toals\")\n    def test_dy(self):\n>       self.obj.get_toastscy(\"小马达：上传\", \"小马达：上传车辆成功\")\n\nScripts\\test_chcj.py:177: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nd:\\software\\python3.6\\lib\\site-packages\\allure\\common.py:62: in impl\n    return func(*a, **kw)\nPage\\xmd_cycj.py:208: in get_toastscy\n    self.get_toast(message, yuqi)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Page.xmd_cycj.search object at 0x0000017BA1BE5940>, message = '小马达：上传', yuqi = '小马达：上传车辆成功'\n\n    def get_toast(self, message, yuqi):\n        try:\n            xpath = \"//*[contains(@text,'{}')]\".format(message)\n            toast_message = self.search_element((By.XPATH, xpath), timeout=5, poll=0.1).text\n            print(toast_message)\n            assert toast_message == yuqi\n            allure.attach(\"用例状态:\", \"成功\")\n        except Exception as e:\n            self.get_screen()\n>           assert 1 == 2\nE           AssertionError\n\nBase\\Base.py:88: AssertionError",
+    "steps" : [ {
+      "name" : "断言上传成功toals",
+      "time" : {
+        "start" : 1543307697489,
+        "stop" : 1543307705151,
+        "duration" : 7662
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <Page.xmd_cycj.search object at 0x0000017BA1BE5940>, message = '小马达：上传', yuqi = '小马达：上传车辆成功'\n\n    def get_toast(self, message, yuqi):\n        try:\n            xpath = \"//*[contains(@text,'{}')]\".format(message)\n>           toast_message = self.search_element((By.XPATH, xpath), timeout=5, poll=0.1).text\n\nBase\\Base.py:82: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Page.xmd_cycj.search object at 0x0000017BA1BE5940>, loc = ('xpath', \"//*[contains(@text,'小马达：上传')]\"), timeout = 5, poll = 0.1\n\n    def search_element(self, loc, timeout=15, poll=1.0):\n    \n        \"\"\"\n        定位单个元素 - 显示等待\n        :param loc: 元祖 (定位类型，类型属性值) 例子:(By.ID,\"com.xx.xx\")\n        :param timeout: 超时时间\n        :param poll: 搜索间隔\n        :return: 定位对象\n        \"\"\"\n>       return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))\n\nBase\\Base.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"b9cc39ee-3735-466f-8018-63241ba15e45\")>\nmethod = <function Base.search_element.<locals>.<lambda> at 0x0000017BA1DBF950>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\software\\python3.6\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException\n\nDuring handling of the above exception, another exception occurred:\n\nself = <test_chcj.Test_1 object at 0x0000017BA1E62BA8>\n\n    @allure.step(title=\"断言上传成功toals\")\n    def test_dy(self):\n>       self.obj.get_toastscy(\"小马达：上传\", \"小马达：上传车辆成功\")\n\nScripts\\test_chcj.py:177: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nd:\\software\\python3.6\\lib\\site-packages\\allure\\common.py:62: in impl\n    return func(*a, **kw)\nPage\\xmd_cycj.py:208: in get_toastscy\n    self.get_toast(message, yuqi)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Page.xmd_cycj.search object at 0x0000017BA1BE5940>, message = '小马达：上传', yuqi = '小马达：上传车辆成功'\n\n    def get_toast(self, message, yuqi):\n        try:\n            xpath = \"//*[contains(@text,'{}')]\".format(message)\n            toast_message = self.search_element((By.XPATH, xpath), timeout=5, poll=0.1).text\n            print(toast_message)\n            assert toast_message == yuqi\n            allure.attach(\"用例状态:\", \"成功\")\n        except Exception as e:\n            self.get_screen()\n>           assert 1 == 2\nE           AssertionError\n\nBase\\Base.py:88: AssertionError",
+      "steps" : [ {
+        "name" : "获取toast消息",
+        "time" : {
+          "start" : 1543307697489,
+          "stop" : 1543307705151,
+          "duration" : 7662
+        },
+        "status" : "failed",
+        "statusMessage" : "self = <Page.xmd_cycj.search object at 0x0000017BA1BE5940>, message = '小马达：上传', yuqi = '小马达：上传车辆成功'\n\n    def get_toast(self, message, yuqi):\n        try:\n            xpath = \"//*[contains(@text,'{}')]\".format(message)\n>           toast_message = self.search_element((By.XPATH, xpath), timeout=5, poll=0.1).text\n\nBase\\Base.py:82: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Page.xmd_cycj.search object at 0x0000017BA1BE5940>, loc = ('xpath', \"//*[contains(@text,'小马达：上传')]\"), timeout = 5, poll = 0.1\n\n    def search_element(self, loc, timeout=15, poll=1.0):\n    \n        \"\"\"\n        定位单个元素 - 显示等待\n        :param loc: 元祖 (定位类型，类型属性值) 例子:(By.ID,\"com.xx.xx\")\n        :param timeout: 超时时间\n        :param poll: 搜索间隔\n        :return: 定位对象\n        \"\"\"\n>       return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))\n\nBase\\Base.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"b9cc39ee-3735-466f-8018-63241ba15e45\")>\nmethod = <function Base.search_element.<locals>.<lambda> at 0x0000017BA1DBF950>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\software\\python3.6\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException\n\nDuring handling of the above exception, another exception occurred:\n\nself = <test_chcj.Test_1 object at 0x0000017BA1E62BA8>\n\n    @allure.step(title=\"断言上传成功toals\")\n    def test_dy(self):\n>       self.obj.get_toastscy(\"小马达：上传\", \"小马达：上传车辆成功\")\n\nScripts\\test_chcj.py:177: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nd:\\software\\python3.6\\lib\\site-packages\\allure\\common.py:62: in impl\n    return func(*a, **kw)\nPage\\xmd_cycj.py:208: in get_toastscy\n    self.get_toast(message, yuqi)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Page.xmd_cycj.search object at 0x0000017BA1BE5940>, message = '小马达：上传', yuqi = '小马达：上传车辆成功'\n\n    def get_toast(self, message, yuqi):\n        try:\n            xpath = \"//*[contains(@text,'{}')]\".format(message)\n            toast_message = self.search_element((By.XPATH, xpath), timeout=5, poll=0.1).text\n            print(toast_message)\n            assert toast_message == yuqi\n            allure.attach(\"用例状态:\", \"成功\")\n        except Exception as e:\n            self.get_screen()\n>           assert 1 == 2\nE           AssertionError\n\nBase\\Base.py:88: AssertionError",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "78824bb89c7719bf",
+          "name" : "截图名字",
+          "source" : "78824bb89c7719bf.png",
+          "type" : "image/png",
+          "size" : 62747
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-08IDGDC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "12448-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_chcj"
+  }, {
+    "name" : "testClass",
+    "value" : "test_chcj"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_1.test_dy"
+  }, {
+    "name" : "package",
+    "value" : "test_chcj"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3679b4977b126e0.json",
+  "parameterValues" : [ ]
+}
