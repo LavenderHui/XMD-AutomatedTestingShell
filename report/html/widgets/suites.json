@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "0f88fa202da291569c86af32a9446280",
-    "name" : "test_chcj",
+    "uid" : "ca10fd9d6c2671d9a3475eef0eefd150",
+    "name" : "test_gongdan",
     "statistic" : {
-      "failed" : 3,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 25,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 28
+      "total" : 6
     }
   } ]
 }

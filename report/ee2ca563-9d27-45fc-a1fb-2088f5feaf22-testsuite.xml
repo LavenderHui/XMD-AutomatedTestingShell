@@ -1,0 +1,20 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1543564710101" stop="1543564710101">
+  <description>This is the tests collection phase. Failures are modules that failed to collect.</description>
+  <name>test_collection_phase</name>
+  <title>Collection phase</title>
+  <labels/>
+  <test-cases>
+    <test-case start="1543564710101" status="broken" stop="1543564710101">
+      <name>test_gongdan</name>
+      <failure>
+        <message>failed</message>
+        <stack-trace>Scripts\test_gongdan.py:70: in &lt;module&gt;
+    driver.find_element_by_xpath('/html/body/div[3]/div/div/div/ul/li[1]').click()
+E   AttributeError: 'NoneType' object has no attribute 'click'</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

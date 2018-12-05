@@ -1,0 +1,153 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1543995143276" stop="1543995283401">
+  <name>test_gongdan</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1543995143276" status="passed" stop="1543995218843">
+      <name>test_gongdan.test_denglu</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16976-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543995182486" status="passed" stop="1543995218843">
+          <name>登录操作</name>
+          <title>登录操作</title>
+          <attachments>
+            <attachment source="2a1b4915-bde1-4eb8-8f17-555ffefa3d97-attachment.txt" title="用户登陆信息：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543995218851" status="passed" stop="1543995225138">
+      <name>test_gongdan.test_seller_management</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16976-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543995218854" status="passed" stop="1543995225137">
+          <name>点击B2C销售管理</name>
+          <title>点击B2C销售管理</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543995225140" status="passed" stop="1543995230374">
+      <name>test_gongdan.test_work_management</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16976-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543995225141" status="passed" stop="1543995230373">
+          <name>点击工单管理</name>
+          <title>点击工单管理</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543995230376" status="passed" stop="1543995261933">
+      <name>test_gongdan.test_search_workOrder</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16976-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543995230378" status="passed" stop="1543995261932">
+          <name>搜索工单</name>
+          <title>搜索工单</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543995261936" status="passed" stop="1543995272377">
+      <name>test_gongdan.test_allot_workOrder</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16976-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543995261938" status="passed" stop="1543995272377">
+          <name>分配工单</name>
+          <title>分配工单</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543995272378" status="passed" stop="1543995274287">
+      <name>test_gongdan.test_slide1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16976-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543995272380" status="passed" stop="1543995274286">
+          <name>屏幕上滑</name>
+          <title>屏幕上滑</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543995274291" status="passed" stop="1543995278787">
+      <name>test_gongdan.test_chooseSeller</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16976-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543995274296" status="passed" stop="1543995278786">
+          <name>选择销售</name>
+          <title>选择销售</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543995278789" status="passed" stop="1543995283401">
+      <name>test_gongdan.test_confirm</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16976-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

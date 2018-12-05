@@ -19,7 +19,7 @@ class search1(Base):
         Base.__init__(self, deiver)
 
     # 输入采集账号
-    def import_login(self, name="10000000156", passsword="uat.portal"):
+    def import_login(self, name="10000000145", passsword="uat.portal"):
         allure.attach("用户登陆信息：", "用户名:%s\n密码:%s" % (name, passsword))
         self.input_element(Page.username, name)
         self.input_element(Page.password, passsword)

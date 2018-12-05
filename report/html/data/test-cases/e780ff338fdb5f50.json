@@ -1,0 +1,91 @@
+{
+  "uid" : "e780ff338fdb5f50",
+  "name" : "test_gongdan.test_denglu",
+  "fullName" : "test_gongdan.test_gongdan.test_denglu",
+  "historyId" : "dc79652f89f08e68cc537021fb474cc1",
+  "time" : {
+    "start" : 1543981856732,
+    "stop" : 1543981937713,
+    "duration" : 80981
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录操作",
+      "time" : {
+        "start" : 1543981900556,
+        "stop" : 1543981937712,
+        "duration" : 37156
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "68da4252e6b5e372",
+        "name" : "用户登陆信息：",
+        "source" : "68da4252e6b5e372.txt",
+        "type" : "text/plain",
+        "size" : 39
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-08IDGDC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "19684-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_gongdan"
+  }, {
+    "name" : "testClass",
+    "value" : "test_gongdan"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_gongdan.test_denglu"
+  }, {
+    "name" : "package",
+    "value" : "test_gongdan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e780ff338fdb5f50.json",
+  "parameterValues" : [ ]
+}

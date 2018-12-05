@@ -21,6 +21,13 @@ class search(Base):
     def __init__(self, deiver):
         Base.__init__(self, deiver)
 
+    #使用相机连拍照片
+    def click_xiangji(self):
+        self.click_element(Page.xiangji)
+
+    def click_kuaimen(self):
+        self.click_element(Page.kuaimen)
+
     # 登录采集车源账号
     def input_login(self, name="10000000145", passwo="uat.portal"):
         allure.attach("用户登陆信息：", "用户名:%s\n密码:%s" % (name, passwo))
@@ -29,7 +36,7 @@ class search(Base):
 
     # 点击登录按钮
     def click_login(self):
-        self.click_element(Page.lohin)
+        self.click_element(Page.login)
 
     # 点击取消更新按钮
     def click_cy_qx(self):

@@ -1,0 +1,66 @@
+{
+  "uid" : "fa2794a2a0252a19",
+  "name" : "test_gongdan.test_chooseSeller",
+  "fullName" : "test_gongdan.test_gongdan.test_chooseSeller",
+  "historyId" : "b30011a702f1f5c846502dbd06c826e7",
+  "time" : {
+    "start" : 1543981982113,
+    "stop" : 1543981998557,
+    "duration" : 16444
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutException: Message: \n",
+  "statusTrace" : "self = <test_gongdan.test_gongdan object at 0x0000026F8924EDA0>\n\n    def test_chooseSeller(self):\n>       self.obj.choose_seller()\n\nScripts\\test_gongdan.py:46: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nPage\\xmd_work_order.py:264: in choose_seller\n    self.click_element(Page.seller)\nBase\\Base.py:45: in click_element\n    self.search_element(loc).click()\nBase\\Base.py:23: in search_element\n    return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"e8e148f7-b8bd-4174-83b0-3dc135eed212\")>\nmethod = <function Base.search_element.<locals>.<lambda> at 0x0000026F89209EA0>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\software\\python3.6\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-08IDGDC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "19684-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_gongdan"
+  }, {
+    "name" : "testClass",
+    "value" : "test_gongdan"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_gongdan.test_chooseSeller"
+  }, {
+    "name" : "package",
+    "value" : "test_gongdan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fa2794a2a0252a19.json",
+  "parameterValues" : [ ]
+}

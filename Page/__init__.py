@@ -65,7 +65,7 @@ username = (By.ID, "com.kanche.mars:id/et_username")
 # 密码框
 password = (By.ID, "com.kanche.mars:id/et_password")
 # 登录按钮
-lohin = (By.ID, "com.kanche.mars:id/bt_login")
+login = (By.ID, "com.kanche.mars:id/bt_login")
 # 取消更新
 cancel = (By.ID, "android:id/button2")
 """采集"""
@@ -79,7 +79,7 @@ srmd = (By.XPATH,
 # 搜索按钮
 ss = (By.XPATH, "//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_dialog_search' and @text='搜索']")
 # 门店点击
-xzmd = (By.XPATH, "//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_store_name' and @text='巴啦啦小魔仙(M001359)']")
+xzmd = (By.XPATH, "//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_store_name' and @text='乔巴乔巴(M001359)']")
 # 确认选择门店按钮
 okan = (By.XPATH, "//android.widget.Button[@resource-id='android:id/button1' and @text='确定']")
 # 采集车源信息页
@@ -185,3 +185,46 @@ quxiao = (By.XPATH, "//android.widget.Button[@resource-id='android:id/button2' a
 #daiweihu = (By.XPATH, "//android.widget.TextView[@text='待维护']")
 #即将过期
 #jijiangguoqi = (By.XPATH, "//android.widget.TextView[@text='即将过期']")
+
+#手机相机
+xiangji = (By.XPATH, "//android.widget.TextView[@text='相机']")
+#手机快门
+kuaimen = (By.XPATH, "//android.widget.ImageView[@resource-id='com.oppo.camera:id/shutter_button' and @content-desc='“快门”按钮']")
+
+#B2C销售管理
+b2c_xsgl = (By.XPATH, "//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_tab' and @text='B2C销售管理']")
+#工单管理
+work_management = (By.XPATH, "//android.widget.TextView[@text='工单管理']")
+#工单搜索
+gd_search = (By.XPATH, "//android.widget.TextView[@resource-id='com.kanche.mars:id/menu_item_add' and @content-desc='Add']")
+#工单管理搜索框
+gd_searchText = (By.XPATH, "//android.widget.EditText[@resource-id='com.kanche.mars:id/et_search' and @text='请输入工单后四位/手机号进行搜索']")
+#工单搜索按钮
+gd_sousuo = (By.XPATH, "//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_cancel' and @text='搜索']")
+#分配工单
+fenpeigongdan = (By.XPATH, "//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_button_3' and @text='分配工单']")
+#选择销售
+seller = (By.XPATH, "//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_employee_name' and @text='txh-销售']")
+
+#B2C销售
+b2c_seller = (By.XPATH, "//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_tab' and @text='B2C销售']")
+#工单
+work_order = (By.XPATH, "//android.widget.TextView[@text='工单']")
+#添加邀约记录
+addInvite_record = (By.XPATH, "//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_button_3' and @text='添加邀约记录']")
+#预约日期
+reservation_date = (By.XPATH, "//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_right' and @text='请选择']")
+#预约时间
+reservation_time = (By.XPATH, "//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_right' and @text='请选择']")
+#预约地点地图
+reservation_map = (By.XPATH, "//android.widget.ImageView")
+#第一个定位地点
+reservation_place = (By.XPATH, "//android.widget.RelativeLayout")
+#跟进记录
+follow_record = (By.XPATH, "//android.widget.EditText[@resource-id='com.kanche.mars:id/editText1' and @text='请填写跟进记录']")
+#预约保存
+reservation_save = (By.XPATH, "//android.widget.TextView[@resource-id='com.kanche.mars:id/save' and @text='保存']")
+#确认
+save_confirm = (By.XPATH, "//android.widget.Button[@resource-id='android:id/button1' and @text='确认']")
+#我再看看
+reconsider = (By.XPATH, "//android.widget.Button[@resource-id='android:id/button2' and @text='我再看看']")

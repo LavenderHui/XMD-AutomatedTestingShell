@@ -12,6 +12,13 @@ class Test_1:
     def setup_class(self):
         self.obj = search(get_driver())
 
+    """
+    @allure.step(title="拍摄照片")
+    def paishe(self):
+        self.obj.click_xiangji()
+        self.obj.click_kuaimen()
+    """
+
     @allure.step(title="输入账号密码")
     def test_2(self):
         self.obj.input_login()
@@ -153,7 +160,7 @@ class Test_1:
 
     @allure.step(title="屏幕下滑")
     def test_hd(self):
-        self.obj.slide(390, 1667, 390, 516, 2000)
+        self.obj.slide(390, 1742, 390, 576, 2000)
 
     @allure.step(title="填写售价")
     def test_sj(self):
@@ -194,9 +201,12 @@ class Test_1:
         self.obj.click_wode()
 
     @allure.step(title="屏幕下滑")
-    def test_hd(self):
+    def test_hd1(self):
         self.obj.slide(859, 1506, 859, 1164, 1000)
 
     @allure.step(title="退出")
     def test_tuichudenglu(self):
         self.obj.click_tuichu()
+
+
+
