@@ -285,7 +285,7 @@ class gongdan(Base):
         self.click_element(Page.esc)
 
     #登录销售账号
-    def input_login(self,userName=10000000145,password="uat.portal"):
+    def input_denglu(self,userName=10000000145,password="uat.portal"):
         allure.attach("用户登陆信息：", "用户名:%s\n密码:%s" % (userName, password))
         self.input_element(Page.username,userName)
         self.input_element(Page.password,password)
