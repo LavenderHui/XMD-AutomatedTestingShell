@@ -79,7 +79,7 @@ class Base:
     def get_toast(self, message, yuqi):
         try:
             xpath = "//*[contains(@text,'{}')]".format(message)
-            toast_message = self.search_element((By.XPATH, xpath), timeout=5, poll=0.1).text
+            toast_message = self.search_element((By.XPATH, xpath), timeout=10, poll=0.5).text
             print(toast_message)
             assert toast_message == yuqi
             allure.attach("用例状态:", "成功")
