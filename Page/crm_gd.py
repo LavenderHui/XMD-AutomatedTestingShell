@@ -193,8 +193,8 @@ driver.execute_script(slide4)
 sleep(1)
 
 #选择门店意向车源为用户意向
-driver.find_element_by_xpath('//*[@id="intentionType0"]/label[1]/span[1]/input').click()
-sleep(1)
+#driver.find_element_by_xpath('//*[@id="intentionType0"]/label[1]/span[1]/input').click()
+#sleep(1)
 
 #选择门店意向车源为座席推荐
 driver.find_element_by_xpath('//*[@id="intentionType0"]/label[2]/span[1]/input').click()
@@ -209,15 +209,17 @@ sleep(1)
 driver.find_element_by_xpath('//*[@id="root"]/div/div/div[1]/div/ul/li[12]/div/span/span').click()
 sleep(1)
 
-# 点击小马达销售工单
+# 点击小马达销售工单            
 driver.find_element_by_xpath('//*[@id="/salessinglecity$Menu"]/li[3]/a').click()
 sleep(1)
 # 点击客户电话
 driver.find_element_by_xpath('//*[@id="customerTelephone"]').send_keys(tell_num)
 sleep(1)
-# 点击查询
+# 点击查询                     
 driver.find_element_by_xpath('//*[@id="root"]/div/div/div[2]/div[2]/div/div[2]/div[1]/div[2]/form/div[2]/div/div/div/span/button[1]').click()
 sleep(1)
+
+"""
 # 勾选查询到的工单
 driver.find_element_by_xpath('//*[@id="root"]/div/div/div[2]/div[2]/div/div[2]/div[2]/div/div[2]/div/div/div/div/div/div[2]/div/div/table/tbody/tr/td[1]/span/label/span/input').click()
 sleep(1)
@@ -235,4 +237,4 @@ driver.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div[2]/div[2]/div
 sleep(1)
 # 关闭浏览器
 driver.quit()
-
+"""
