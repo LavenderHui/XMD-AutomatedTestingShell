@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/B2CAPP.iml" filepath="$PROJECT_DIR$/.idea/B2CAPP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/b2c_xmd_text.iml" filepath="$PROJECT_DIR$/.idea/b2c_xmd_text.iml" />
     </modules>
   </component>
 </project>
