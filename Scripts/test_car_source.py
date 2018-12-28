@@ -198,12 +198,12 @@ class Test_1:
     # @allure.step(title="验证信息不全点击上传")
     # def test_sava_car_change(self):
     #     self.obj.click_save_car()
-    @allure.step(title="填写售价")
-    def test_sj(self):
-        self.obj.input_sj()
     @allure.step(title="屏幕下滑")
     def test_hd(self):
         self.obj.slide(458, 1900, 458, 800, 2000)
+    @allure.step(title="填写售价")
+    def test_sj(self):
+        self.obj.input_sj()
     @allure.step(title="填写车辆备注")
     def test_clbz(self):
         self.obj.input_clbz()
@@ -223,7 +223,7 @@ class Test_1:
     @allure.step(title="对保存本地的新采集车源进行上传")
     def test_che(self):
         # self.obj.click_chyxx()
-        self.obj.click_baoc()
+        #self.obj.click_baoc()
         self.obj.click_sc()
     # def test_click_diashen(self):
     #     self.obj.click_daishen()
@@ -234,8 +234,16 @@ class Test_1:
     # def test_webshenhe(self):
     #     web_shenhe()
     #
-    @allure.step(title="退出登录")
+
+    @allure.step(title="返回，我的")
     def test_fhz(self):
         self.obj.click_fanhu()
         self.obj.click_wode()
 
+    @allure.step(title="屏幕上滑")
+    def test_hd1(self):
+        self.obj.slide(200, 1700, 200, 1400, 500)
+
+    @allure.step(title="退出登录")
+    def test_tuichu(self):
+        self.obj.click_tuichu()

@@ -1,0 +1,94 @@
+{
+  "uid" : "d346ab2640c79276",
+  "name" : "Test_1.test_fhz",
+  "fullName" : "test_car_source.Test_1.test_fhz",
+  "historyId" : "fa190109b9a7c151fdf31ee588002002",
+  "time" : {
+    "start" : 1545960151349,
+    "stop" : 1545960189463,
+    "duration" : 38114
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutException: Message: \n",
+  "statusTrace" : "self = <test_car_source.Test_1 object at 0x000001C98C42D5F8>\n\n    @allure.step(title=\"退出登录\")\n    def test_fhz(self):\n        self.obj.click_fanhu()\n>       self.obj.click_wode()\n\nScripts\\test_car_source.py:243: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nPage\\xmd_car_source.py:406: in click_wode\n    self.click_element(Page.esc)\nBase\\Base.py:44: in click_element\n    self.search_element(loc).click()\nBase\\Base.py:23: in search_element\n    return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"ce2b5391-c2b4-4817-a387-47392c90e3c9\")>\nmethod = <function Base.search_element.<locals>.<lambda> at 0x000001C98C3D3D90>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\software\\python3.6\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TimeoutException: Message: \n",
+    "statusTrace" : "self = <test_car_source.Test_1 object at 0x000001C98C42D5F8>\n\n    @allure.step(title=\"退出登录\")\n    def test_fhz(self):\n        self.obj.click_fanhu()\n>       self.obj.click_wode()\n\nScripts\\test_car_source.py:243: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nPage\\xmd_car_source.py:406: in click_wode\n    self.click_element(Page.esc)\nBase\\Base.py:44: in click_element\n    self.search_element(loc).click()\nBase\\Base.py:23: in search_element\n    return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"ce2b5391-c2b4-4817-a387-47392c90e3c9\")>\nmethod = <function Base.search_element.<locals>.<lambda> at 0x000001C98C3D3D90>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\software\\python3.6\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ {
+      "name" : "退出登录",
+      "time" : {
+        "start" : 1545960151350,
+        "stop" : 1545960189307,
+        "duration" : 37957
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <test_car_source.Test_1 object at 0x000001C98C42D5F8>\n\n    @allure.step(title=\"退出登录\")\n    def test_fhz(self):\n        self.obj.click_fanhu()\n>       self.obj.click_wode()\n\nScripts\\test_car_source.py:243: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nPage\\xmd_car_source.py:406: in click_wode\n    self.click_element(Page.esc)\nBase\\Base.py:44: in click_element\n    self.search_element(loc).click()\nBase\\Base.py:23: in search_element\n    return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"ce2b5391-c2b4-4817-a387-47392c90e3c9\")>\nmethod = <function Base.search_element.<locals>.<lambda> at 0x000001C98C3D3D90>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\software\\python3.6\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-08IDGDC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "23104-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_car_source"
+  }, {
+    "name" : "testClass",
+    "value" : "test_car_source"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_1.test_fhz"
+  }, {
+    "name" : "package",
+    "value" : "test_car_source"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d346ab2640c79276.json",
+  "parameterValues" : [ ]
+}

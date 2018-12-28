@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "ca10fd9d6c2671d9a3475eef0eefd150",
-    "name" : "test_gongdan",
+    "uid" : "2812c1ca247ab72b01e1ff09b643d510",
+    "name" : "test_car_source",
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 23,
       "unknown" : 0,
-      "total" : 6
+      "total" : 24
     }
   } ]
 }

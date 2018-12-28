@@ -1,0 +1,85 @@
+{
+  "uid" : "a6e0b34156d9b272",
+  "name" : "Test_1.test_input_vin",
+  "fullName" : "test_car_source.Test_1.test_input_vin",
+  "historyId" : "52920bed995ad4616038ad1a273c7b58",
+  "time" : {
+    "start" : 1545959597100,
+    "stop" : 1545959612576,
+    "duration" : 15476
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入vin码",
+      "time" : {
+        "start" : 1545959597102,
+        "stop" : 1545959612575,
+        "duration" : 15473
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-08IDGDC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "23104-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_car_source"
+  }, {
+    "name" : "testClass",
+    "value" : "test_car_source"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_1.test_input_vin"
+  }, {
+    "name" : "package",
+    "value" : "test_car_source"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a6e0b34156d9b272.json",
+  "parameterValues" : [ ]
+}

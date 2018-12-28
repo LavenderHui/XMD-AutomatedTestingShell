@@ -20,9 +20,9 @@ bm=(By.XPATH,"//android.widget.EditText[@resource-id='com.kanche.mars:id/editTex
 # 门头照照片相机
 mtxj=(By.XPATH,"//android.widget.ImageButton[@resource-id='com.kanche.mars:id/button2']")
 # 相机快门
-xjkm=(By.ID,"com.android.camera:id/v6_shutter_button_internal")
+xjkm=(By.XPATH,"//android.widget.ImageView[@resource-id='com.oppo.camera:id/shutter_button' and @content-desc='“快门”按钮']")
 # 选择照片
-gouzp=(By.XPATH,"//android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[2]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[2]")
+gouzp=(By.XPATH,"//android.widget.ImageView[@resource-id='com.oppo.camera:id/btn_done']")
 # 定位按钮
 xxdz=(By.XPATH,"//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[2]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]")
 # 选择位置
@@ -96,9 +96,10 @@ shi=(By.XPATH,"//android.widget.Button[@resource-id='android:id/button2' and @te
 vinsr=(By.XPATH,"//android.widget.EditText[@resource-id='com.kanche.mars:id/editText1' and @text='请输入17位VIN码']")
 # 车型
 cx1=(By.XPATH,"//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_right' and @text='VIN码识别自动带入，或手选']")
-cx2=(By.XPATH,"//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_title' and @text='宝马']")
-cx3=(By.XPATH,"//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_title' and @text='5系']")
-cx4=(By.XPATH,"//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_title' and @text='528i xDrive 豪华设计套装型']")
+cx2=(By.XPATH,"//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_title' and @text='阿斯顿·马丁']")
+cx3=(By.XPATH,"//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_title' and @text='DB11']")
+cx4=(By.XPATH,"//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_title' and @text='2019款 NC500 限量版']")
+#cx4=(By.XPATH,"//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_title' and @text='2017款 540i 3.0T 手自一体 M运动套装']")
 # 表显里数
 bxls=(By.XPATH,"//android.widget.EditText[@resource-id='com.kanche.mars:id/editText1' and @text='保留到小数点后两位']")
 # 车辆照片

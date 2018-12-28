@@ -1,0 +1,85 @@
+{
+  "uid" : "3f25220dee7703a7",
+  "name" : "Test_1.test_bxxj",
+  "fullName" : "test_car_source.Test_1.test_bxxj",
+  "historyId" : "4d6716a880c63c97d31785f84e714a5a",
+  "time" : {
+    "start" : 1545959612577,
+    "stop" : 1545959632151,
+    "duration" : 19574
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击表显相机",
+      "time" : {
+        "start" : 1545959612578,
+        "stop" : 1545959632150,
+        "duration" : 19572
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-08IDGDC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "23104-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_car_source"
+  }, {
+    "name" : "testClass",
+    "value" : "test_car_source"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_1.test_bxxj"
+  }, {
+    "name" : "package",
+    "value" : "test_car_source"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f25220dee7703a7.json",
+  "parameterValues" : [ ]
+}
