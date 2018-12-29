@@ -340,7 +340,7 @@ class search(Base):
         self.click_element(Page.cdrq)
         self.click_element(Page.okrq)
     # 售价
-    def input_sj(self,jiage="120"):
+    def input_sj(self,jiage="15"):
         allure.attach("车辆价格:", "车辆价格是{}万".format(jiage))
         self.input_element(Page.sj,jiage)
     # 审核备注

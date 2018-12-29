@@ -30,8 +30,8 @@
       <file leaf-file-name="xmd_car_source.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Page/xmd_car_source.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="57" column="42" lean-forward="false" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+            <state relative-caret-position="130">
+              <caret line="342" column="31" lean-forward="false" selection-start-line="342" selection-start-column="31" selection-end-line="342" selection-end-column="31" />
               <folding>
                 <element signature="e#45#56#0" expanded="true" />
               </folding>
@@ -84,8 +84,8 @@
       <file leaf-file-name="test_car_source.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/test_car_source.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+            <state relative-caret-position="294">
+              <caret line="205" column="24" lean-forward="true" selection-start-line="205" selection-start-column="24" selection-end-line="205" selection-end-column="24" />
               <folding>
                 <element signature="e#45#58#0" expanded="true" />
               </folding>
@@ -953,8 +953,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/test_car_source.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+        <state relative-caret-position="294">
+          <caret line="205" column="24" lean-forward="true" selection-start-line="205" selection-start-column="24" selection-end-line="205" selection-end-column="24" />
           <folding>
             <element signature="e#45#58#0" expanded="true" />
           </folding>
@@ -963,8 +963,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Page/xmd_car_source.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="57" column="42" lean-forward="false" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+        <state relative-caret-position="130">
+          <caret line="342" column="31" lean-forward="false" selection-start-line="342" selection-start-column="31" selection-end-line="342" selection-end-column="31" />
           <folding>
             <element signature="e#45#56#0" expanded="true" />
           </folding>
