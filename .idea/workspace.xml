@@ -30,9 +30,11 @@
       <file leaf-file-name="xmd_car_source.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Page/xmd_car_source.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="224" column="39" lean-forward="true" selection-start-line="224" selection-start-column="39" selection-end-line="224" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="290">
+              <caret line="57" column="42" lean-forward="false" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+              <folding>
+                <element signature="e#45#56#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,8 +62,8 @@
       <file leaf-file-name="get_driver.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Base/get_driver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="180">
+              <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
               <folding>
                 <element signature="e#45#73#0" expanded="true" />
               </folding>
@@ -72,7 +74,7 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Page/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1400">
+            <state relative-caret-position="52">
               <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
@@ -82,9 +84,11 @@
       <file leaf-file-name="test_car_source.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/test_car_source.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="118">
+              <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+              <folding>
+                <element signature="e#45#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -554,7 +558,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4860">
           <caret line="244" column="19" lean-forward="false" selection-start-line="244" selection-start-column="19" selection-end-line="244" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="e#45#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -604,7 +610,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4860">
           <caret line="244" column="19" lean-forward="true" selection-start-line="244" selection-start-column="19" selection-end-line="244" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="e#45#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -612,7 +620,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8060">
           <caret line="407" column="25" lean-forward="false" selection-start-line="407" selection-start-column="25" selection-end-line="407" selection-end-column="25" />
-          <folding />
+          <folding>
+            <element signature="e#45#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -628,7 +638,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4840">
           <caret line="242" column="35" lean-forward="false" selection-start-line="242" selection-start-column="35" selection-end-line="242" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="e#45#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -659,7 +671,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1960">
           <caret line="99" column="23" lean-forward="false" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="e#45#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -685,7 +699,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1060">
           <caret line="57" column="62" lean-forward="false" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
-          <folding />
+          <folding>
+            <element signature="e#45#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -726,7 +742,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="e#45#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -742,7 +760,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8060">
           <caret line="407" column="0" lean-forward="true" selection-start-line="407" selection-start-column="0" selection-end-line="407" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#45#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -783,7 +803,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4460">
           <caret line="224" column="32" lean-forward="true" selection-start-line="224" selection-start-column="32" selection-end-line="224" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="e#45#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -799,7 +821,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#45#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -830,7 +854,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#45#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -869,21 +895,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../xmd_app_test/Scripts/report/web.py" />
-    <entry file="file://$PROJECT_DIR$/Base/get_driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
-            <element signature="e#45#73#0" expanded="true" />
+            <element signature="e#45#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../xmd_app_test/Scripts/report/web.py" />
     <entry file="file://$PROJECT_DIR$/Page/aaa.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -899,9 +917,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Page/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
+        <state relative-caret-position="52">
           <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
@@ -915,27 +941,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
+    <entry file="file://$PROJECT_DIR$/Base/get_driver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="e#45#73#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/test_car_source.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="118">
+          <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+          <folding>
+            <element signature="e#45#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Page/xmd_car_source.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="224" column="39" lean-forward="true" selection-start-line="224" selection-start-column="39" selection-end-line="224" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="290">
+          <caret line="57" column="42" lean-forward="false" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+          <folding>
+            <element signature="e#45#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
