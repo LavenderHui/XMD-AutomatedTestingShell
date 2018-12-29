@@ -216,10 +216,9 @@ class search(Base):
         self.click_element(Page.jia)
         self.click_element(Page.ss)
         md = self.search_elements(Page.xzmd)
-        #mdRandom = []
-        #mdRandom = list(range(0, 3))
-        #mdRandom.click()
-        md[1].click()
+        md[random.randint(1,5)].click()
+        #print(md)
+        #md[1].click()
         self.click_element(Page.okan)
         # self.click_element(Page.baocun)
         # self.get_toast("小马达：","小马达：保存成功")

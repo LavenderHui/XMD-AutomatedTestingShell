@@ -1,0 +1,111 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1546068448021" stop="1546068561993">
+  <name>test_car_source</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1546068448021" status="passed" stop="1546068512198">
+      <name>Test_1.test_2</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6064-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1546068448024" status="passed" stop="1546068486230">
+          <name>获取权限成功</name>
+          <title>获取权限成功</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1546068486231" status="passed" stop="1546068512197">
+          <name>输入账号密码</name>
+          <title>输入账号密码</title>
+          <attachments>
+            <attachment source="44a544a4-64d1-461f-a89c-a2494419289f-attachment.txt" title="用户登陆信息：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1546068512206" status="passed" stop="1546068517195">
+      <name>Test_1.test_1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6064-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1546068512208" status="passed" stop="1546068517195">
+          <name>点击登录</name>
+          <title>点击登录</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1546068517198" status="passed" stop="1546068525262">
+      <name>Test_1.test_12</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6064-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1546068517202" status="passed" stop="1546068525261">
+          <name>验证是否登录成功</name>
+          <title>验证是否登录成功</title>
+          <attachments>
+            <attachment source="429f1649-f60a-4f45-ba36-fd4fec50eb6c-attachment.txt" title="小马达：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1546068525269" status="passed" stop="1546068530019">
+      <name>Test_1.test_qx</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6064-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1546068525271" status="passed" stop="1546068530019">
+          <name>点击取消更新</name>
+          <title>点击取消更新</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1546068530021" status="passed" stop="1546068561993">
+      <name>Test_1.test_vitify_button</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6064-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1546068530024" status="passed" stop="1546068561992">
+          <name>进入添加车源页，直接在添加车源页点击右上角“保存”按钮</name>
+          <title>进入添加车源页，直接在添加车源页点击右上角“保存”按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

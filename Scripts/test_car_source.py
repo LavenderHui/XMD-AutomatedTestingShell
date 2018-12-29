@@ -65,6 +65,7 @@ class Test_1:
     def test_vitify_button(self):
         self.obj.click_cjrk()
         self.obj.vitify_button()
+
     @allure.step(title="拍摄vim照片")
     def test_xj(self):
         self.obj.click_xj()
@@ -234,7 +235,7 @@ class Test_1:
     # def test_webshenhe(self):
     #     web_shenhe()
     #
-
+    
     @allure.step(title="返回，我的")
     def test_fhz(self):
         self.obj.click_fanhu()
@@ -247,3 +248,4 @@ class Test_1:
     @allure.step(title="退出登录")
     def test_tuichu(self):
         self.obj.click_tuichu()
+
