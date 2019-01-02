@@ -43,29 +43,28 @@ for i in range(1,2):
     selt11 = ''.join(sa2)
     # 打开浏览器
     driver = webdriver.Chrome()
-    #driver.get("http://uat.login.taoche.com/casserver/login?service=http://uat.crm.yxqiche.com/auth-web/shiro_cas")
-    driver.get("http://login.taoche.com/casserver/login?service=http://crm.yxqiche.com/auth-web/shiro_cas")
+    driver.get("http://uat.login.taoche.com/casserver/login?service=http://uat.crm.yxqiche.com/auth-web/shiro_cas")
     # 浏览器最大化
     driver.maximize_window()
     driver.implicitly_wait(30)
     # 输入账号和密码
-    WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, "username"))).send_keys("liujingyu")
-    WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, "password"))).send_keys("iloveyixin")
+    WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, "username"))).send_keys("15715353528")
+    WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, "password"))).send_keys("uat.portal")
     # 点击登录
     WebDriverWait(driver, 15).until( EC.presence_of_element_located((By.XPATH, '//*[@id="fm1"]/section[4]/input[5]'))).click()
     # 点击线索管理
     #driver.find_element_by_xpath('//*[@id="root"]/div/div/div[1]/div/ul/li[4]/div/span/span').click()
-    driver.find_element_by_xpath('//*[@id="root"]/div/div/div[1]/div/ul/li[7]/div[1]/span/span').click()
+    driver.find_element_by_xpath('//*[@id="root"]/div/div/div[1]/div/ul/li[6]/div/span/span').click()
     sleep(1)
     # 点击新建C2线索
-    #driver.find_element_by_xpath('//*[@id="/clue$Menu"]/li[2]/a').click()
-    driver.find_element_by_xpath('//*[@id="/clue$Menu"]/li[5]/a').click()
+    driver.find_element_by_xpath('//*[@id="/clue$Menu"]/li[2]/a').click()
+    #driver.find_element_by_xpath('//*[@id="/clue$Menu"]/li[5]/a').click()
     sleep(2)
     # 点击填写手机号
     driver.find_element_by_xpath('//*[@id="telephone"]').send_keys(salt)
     sleep(1)
     # 点击填写姓名
-    driver.find_element_by_xpath('//*[@id="name"]').send_keys("自动化工单%s" % selt1)
+    driver.find_element_by_xpath('//*[@id="name"]').send_keys("日历待办%s" % selt1)
     sleep(1)
     driver.find_element_by_xpath('//*[@id="gender"]/label[1]/span[1]/input').click()
     sleep(1)
@@ -76,9 +75,9 @@ for i in range(1,2):
     driver.find_element_by_xpath('//*[@id="age"]').send_keys("18")
     sleep(1)
     # 点击选择职业
-    #driver.find_element_by_xpath('//*[@id="career"]/div/div/div').click()
+    driver.find_element_by_xpath('//*[@id="career"]/div/div/div').click()
     # 销售|客服|市场
-    #driver.find_element_by_xpath('/html/body/div[3]/div/div/div/ul/li[1]').click()
+    driver.find_element_by_xpath('/html/body/div[3]/div/div/div/ul/li[1]').click()
     sleep(1)
     # 点击填写购车预算
     # 初始值
@@ -98,17 +97,17 @@ for i in range(1,2):
     # 点击来源渠道
     WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="root"]/div/div/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[2]/div/div[3]/div[1]/div[2]/div/div/div/form/div[2]/div[2]/div/span/div/span/i'))).click()
     # 选择淘车网
-    #driver.find_element_by_xpath('/html/body/div[4]/div/div/div/ul/li[4]').click()
-    driver.find_element_by_xpath('/html/body/div[2]/div/div/div/ul/li[4]').click()
+    driver.find_element_by_xpath('/html/body/div[3]/div/div/div/ul[1]/li[4]').click()
+    #driver.find_element_by_xpath('/html/body/div[2]/div/div/div/ul/li[4]').click()
     sleep(1)
     # 选择B2C淘车网
-    #driver.find_element_by_xpath('/html/body/div[4]/div/div/div/ul[2]/li').click()
-    driver.find_element_by_xpath('/html/body/div[2]/div/div/div/ul[2]/li').click()
+    driver.find_element_by_xpath('/html/body/div[3]/div/div/div/ul[2]/li').click()
+    #driver.find_element_by_xpath('/html/body/div[2]/div/div/div/ul[2]/li').click()
     sleep(1)
     # 选择用途为个人
-    #driver.find_element_by_xpath('//*[@id="carUse"]/div/div/div').click()
-    #driver.find_element_by_xpath('/html/body/div[5]/div/div/div/ul/li[1]').click()
-    #sleep(4)
+    driver.find_element_by_xpath('//*[@id="carUse"]/div/div/div').click()
+    driver.find_element_by_xpath('//*[@id="53a45ef6-5805-47d9-bcba-0a250bed28e0"]/ul/li[1]').click()
+    sleep(4)
     # 选择用户意向等级为3天
     driver.find_element_by_xpath('//*[@id="buyCarPlan"]/div/div/div').click()
     #driver.find_element_by_xpath('/html/body/div[6]/div/div/div/ul/li[1]').click()
@@ -118,7 +117,7 @@ for i in range(1,2):
     driver.execute_script(slide31)
     sleep(4)
     # 屏幕下滑
-    driver.find_element_by_xpath('//*[@id="type"]').send_keys("018606145")
+    driver.find_element_by_xpath('//*[@id="type"]').send_keys("000540359")
     # 屏幕上滑
     slide2 = "window.scrollTo(1700,1600)"
     driver.execute_script(slide2)
@@ -139,15 +138,14 @@ for i in range(1,2):
     #driver.find_element_by_xpath('/html/body/div[7]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[6]/td[1]/div').click()
     driver.find_element_by_xpath('/html/body/div[5]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[6]/td[1]/div').click()
     sleep(2)
-    #driver.find_element_by_xpath('/html/body/div[7]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[6]/td[1]/div').click()
-    driver.find_element_by_xpath('/html/body/div[5]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[6]/td[1]/div').click()
+    driver.find_element_by_xpath('/html/body/div[7]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[6]/td[1]/div').click()
+    #driver.find_element_by_xpath('/html/body/div[5]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[6]/td[1]/div').click()
     sleep(1)
     driver.find_element_by_xpath('//*[@id="carCodeSource"]/label[2]/span[1]/input').click()
     # 点击保存工单
     sleep(2)
     WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '//*[@id="root"]/div/div/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[2]/div/div[3]/div[1]/div[2]/div/div/div/div[2]/div[2]/div/span/button'))).click()
     sleep(5)
-    """
     # 点击小马达管理专用
     driver.find_element_by_xpath('//*[@id="root"]/div/div/div[1]/div/ul/li[8]/div[1]/span/span').click()
     #driver.find_element_by_xpath('//*[@id="root"]/div/div/div[1]/div/ul/li[11]/div[1]/span/span').click()
@@ -168,7 +166,7 @@ for i in range(1,2):
     driver.find_element_by_xpath('//*[@id="root"]/div/div/div[2]/div[2]/div/div[2]/div[2]/div/div[1]/button[2]').click()
     sleep(2)
     # 点击并输入销售姓名
-    driver.find_element_by_xpath('//*[@id="name"]').send_keys("测试156")
+    driver.find_element_by_xpath('//*[@id="name"]').send_keys("txh-销售")
     sleep(2)
     # 点击查询
     driver.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div[2]/div[2]/div/div/div[1]/form/div[2]/div/div/span/button').click()
@@ -176,6 +174,5 @@ for i in range(1,2):
     # 点击分配
     driver.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[2]/div/table/tbody/tr/td[3]/span/a').click()
     sleep(2)
-    """
     # 关闭浏览器
     driver.quit()
