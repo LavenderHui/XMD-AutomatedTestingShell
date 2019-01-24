@@ -77,6 +77,8 @@ srmd=(By.XPATH,"//android.widget.EditText[@resource-id='com.kanche.mars:id/et_di
 ss=(By.XPATH,"//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_dialog_search' and @text='搜索']")
 # 门店点击
 xzmd=(By.ID,"com.kanche.mars:id/tv_store_name")
+#选择固定门店
+xzgdmd=(By.XPATH,"//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_store_name' and @text='物质(M057782)']")
 # 提示
 hint=(By.ID,"android:id/message")
 car_image=(By.ID,"com.kanche.mars:id/tv_regester_year_mileage")
@@ -154,7 +156,7 @@ cllb=(By.XPATH,"//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_ri
 # 车辆类别选择七座以下普通车辆
 cllbxz=(By.XPATH,"//android.widget.TextView[@resource-id='android:id/text1' and @text='七座（含）以下普通小型汽车']")
 # 非营运车辆
-fyy=(By.XPATH,"//android.widget.TextView[@resource-id='android:id/text1' and @text='非营运']")
+fyy=(By.XPATH,"//android.widget.TextView[@resource-id='android:id/text1' and @text='非营运车辆']")
 # 初等日期
 cdrq=(By.XPATH,"//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_right' and @text='请选择初登日期']")
 # 确定

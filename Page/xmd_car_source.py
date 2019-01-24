@@ -18,7 +18,6 @@ for i in range(17):
     sa.append(random.choice(seed))
 salt = ''.join(sa)
 
-
 def web_shenhe():
     driver = webdriver.Chrome()
     driver.get(
@@ -62,12 +61,13 @@ def web_shenhe():
 
 class cheyuan(Base):
     # 生成随机vin码
+    #random_vin = rvin(salt)
     # 获取base
     def __init__(self, deiver):
         Base.__init__(self, deiver)
 
     # 登录采集车源账号
-    def input_login(self, name="10000000145", passwo="uat.portal"):
+    def input_login(self, name="10000000207", passwo="iloveyixin"):
         allure.attach("用户登陆信息：", "用户名:%s\n密码:%s" % (name, passwo))
         self.input_element(Page.username, name)
         self.input_element(Page.password, passwo)
@@ -111,7 +111,7 @@ class cheyuan(Base):
     def click_voip(self):
         self.click_element(Page.Store_business)
         md = self.search_elements(Page.xzmd)
-        md[0].click()
+        md[1].click()
         self.click_element(Page.Collecting_entrance)
 
     def verify_voip(self):
@@ -243,13 +243,25 @@ class cheyuan(Base):
     def click_cjrk(self):
         self.click_element(Page.cjrk)
 
+    """按名称搜索"""
+    """
+    def click_amcss(self, mc="物质"):
+        allure.attach("门店名称：", "门店名:%s" % mc)
+        self.click_element(Page.jia)
+        self.input_element(Page.srmd, mc)
+        self.click_element(Page.ss)
+        self.search_elements(Page.xzgdmd)
+        self.click_element(Page.okan)
+    """
+
+    #随机选择门店
     def vitify_button(self):
         self.click_element(Page.jia)
         self.click_element(Page.ss)
         md = self.search_elements(Page.xzmd)
-        md[random.randint(0, 3)].click()
+        #md[random.randint(0, 3)].click()
         # print(md)
-        # md[1].click()
+        md[2].click()
         self.click_element(Page.okan)
         # self.click_element(Page.baocun)
         # self.get_toast("小马达：","小马达：保存成功")

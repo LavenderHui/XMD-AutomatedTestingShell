@@ -22,12 +22,12 @@ class Test_1:
     def test_process_djdl(self):
         self.obj.click_login()
 
-    def test_process_pddl(self):
+    def test_verify_pddl(self):
         self.obj.judge_login()
 
-    @allure.step(title="点击取消更新")
-    def test_process_qx(self):
-        self.obj.click_cy_qx()
+    #@allure.step(title="点击取消更新")
+    #def test_process_qx(self):
+    #    self.obj.click_cy_qx()
 
     @allure.step(title="验证车源采集入口")
     def test_verify_cjrk(self):
@@ -86,6 +86,7 @@ class Test_1:
     def test_process_button(self):
         self.obj.click_cjrk()
         self.obj.vitify_button()
+        #self.obj.click_amcss()
 
     @allure.step(title="拍摄vim照片")
     def test_process_xj(self):
@@ -225,6 +226,11 @@ class Test_1:
     # @allure.step(title="验证信息不全点击上传")
     # def test_sava_car_change(self):
     #     self.obj.click_save_car()
+
+    @allure.step(title="屏幕下滑")
+    def test_process_hd(self):
+        self.obj.slide(458, 1900, 458, 800, 2000)
+
     @allure.step(title="选择初登日期")
     def test_process_cdrq(self):
         self.obj.click_cdrq()
@@ -232,9 +238,6 @@ class Test_1:
     # @allure.step(title="验证信息不全点击上传")
     # def test_sava_car_change(self):
     #     self.obj.click_save_car()
-    @allure.step(title="屏幕下滑")
-    def test_process_hd(self):
-        self.obj.slide(458, 1900, 458, 800, 2000)
 
     @allure.step(title="填写售价")
     def test_process_sj(self):

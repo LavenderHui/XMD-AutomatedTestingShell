@@ -4,12 +4,12 @@
     "uid" : "2812c1ca247ab72b01e1ff09b643d510",
     "name" : "test_car_source",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 23,
+      "passed" : 21,
       "unknown" : 0,
-      "total" : 24
+      "total" : 23
     }
   } ]
 }
