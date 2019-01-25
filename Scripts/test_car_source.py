@@ -227,13 +227,15 @@ class Test_1:
     # def test_sava_car_change(self):
     #     self.obj.click_save_car()
 
-    @allure.step(title="屏幕下滑")
-    def test_process_hd(self):
-        self.obj.slide(458, 1900, 458, 800, 2000)
+
 
     @allure.step(title="选择初登日期")
     def test_process_cdrq(self):
         self.obj.click_cdrq()
+
+    @allure.step(title="屏幕下滑")
+    def test_process_hd(self):
+        self.obj.slide(458, 1900, 458, 800, 2000)
 
     # @allure.step(title="验证信息不全点击上传")
     # def test_sava_car_change(self):
