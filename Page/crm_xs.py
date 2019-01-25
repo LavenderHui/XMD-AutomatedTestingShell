@@ -1,5 +1,5 @@
 a=10000000000
-for i in range(1,7):
+for i in range(1,30):
     b=a+i
     print(b)
     import random
@@ -49,7 +49,7 @@ for i in range(1,7):
     driver.implicitly_wait(30)
     # 输入账号和密码
     WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, "username"))).send_keys("liujingyu")
-    WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, "password"))).send_keys("iloveyixin")
+    WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, "password"))).send_keys("Kanche002!")
     # 点击登录
     WebDriverWait(driver, 15).until( EC.presence_of_element_located((By.XPATH, '//*[@id="fm1"]/section[4]/input[5]'))).click()
     # 点击线索管理
@@ -62,7 +62,7 @@ for i in range(1,7):
     driver.find_element_by_xpath('//*[@id="telephone"]').send_keys(salt)
     sleep(1)
     # 点击填写姓名
-    driver.find_element_by_xpath('//*[@id="name"]').send_keys("日历%s" % selt1)
+    driver.find_element_by_xpath('//*[@id="name"]').send_keys("工单迭代%s" % selt1)
     sleep(1)
     driver.find_element_by_xpath('//*[@id="gender"]/label[1]/span[1]/input').click()
     sleep(1)
@@ -79,9 +79,9 @@ for i in range(1,7):
     sleep(1)
     # 点击填写购车预算
     # 初始值
-    driver.find_element_by_xpath('//*[@id="root"]/div/div/div[2]/div[3]/div/div[2]/div[1]/div[2]/form/div[3]/div[1]/div/div[2]/div/span/input[1]').send_keys("5")
+    driver.find_element_by_xpath('//*[@id="root"]/div/div/div[2]/div[2]/div/div[2]/div[1]/div[2]/form/div[3]/div[1]/div/div[2]/div/span/input[1]').send_keys("5")
     # 结束值
-    driver.find_element_by_xpath('//*[@id="root"]/div/div/div[2]/div[3]/div/div[2]/div[1]/div[2]/form/div[3]/div[1]/div/div[2]/div/span/input[2]').send_keys( "15")
+    driver.find_element_by_xpath('//*[@id="root"]/div/div/div[2]/div[2]/div/div[2]/div[1]/div[2]/form/div[3]/div[1]/div/div[2]/div/span/input[2]').send_keys( "15")
     sleep(1)
     # 是否分期选择“是”
     driver.find_element_by_xpath('//*[@id="purchaseMode"]/label[1]/span[1]/input').click()
@@ -93,7 +93,7 @@ for i in range(1,7):
     slide = "window.scrollTo(0, 300)"
     driver.execute_script(slide)
     # 点击来源渠道
-    WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="root"]/div/div/div[2]/div[3]/div/div[2]/div[2]/div[1]/div[2]/div/div[3]/div[1]/div[2]/div/div/div/form/div[2]/div[2]/div/span/div/span/input'))).click()
+    WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="root"]/div/div/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[2]/div/div[3]/div[1]/div[2]/div/div/div/form/div[2]/div[2]/div/span/div/span/input'))).click()
     # 选择淘车网
     driver.find_element_by_xpath('/html/body/div[3]/div/div/div/ul/li[4]').click()
     sleep(1)
@@ -112,21 +112,24 @@ for i in range(1,7):
     slide31 = "window.scrollTo(400,550)"
     driver.execute_script(slide31)
     sleep(4)
-    driver.find_element_by_xpath('//*[@id="type"]').send_keys("018788502")
+    driver.find_element_by_xpath('//*[@id="type"]').send_keys("018591742")
     # 屏幕上滑
     slide2 = "window.scrollTo(1700,1600)"
     driver.execute_script(slide2)
     sleep(3)
     # 点击搜索
-    driver.find_element_by_xpath('//*[@id="root"]/div/div/div[2]/div[3]/div/div[2]/div[2]/div[2]/div/div/div[1]/button[1]').click()
+    driver.find_element_by_xpath('//*[@id="root"]/div/div/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div/div[1]/button[1]').click()
     sleep(3)
     # 点击添加(从查询列表中随机添加一个)
-    driver.find_element_by_xpath('//*[@id="root"]/div/div/div[2]/div[3]/div/div[2]/div[2]/div[2]/div/div/div[4]/div/div/div/div/div/div[2]/div/div/table/tbody/tr/td/span/a[1]').click()
+    driver.find_element_by_xpath('//*[@id="root"]/div/div/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div/div[4]/div/div/div/div/div/div[2]/div/div/table/tbody/tr/td/span/a[1]').click()
     sleep(2)
     # 屏幕上滑
     slide3 = "window.scrollTo(1600,1300)"
     driver.execute_script(slide3)
     sleep(4)
+    #点击填写其他意向车型
+    #driver.find_element_by_xpath('//*[@id="otherCarCode"]').send_keys("018602741")
+    #sleep(2)
     # 点击看车时间
     driver.find_element_by_xpath('//*[@id="appointTimeRange"]/span/input[1]').click()
     sleep(2)
@@ -135,9 +138,13 @@ for i in range(1,7):
     driver.find_element_by_xpath('/html/body/div[7]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[6]/td[1]/div').click()
     sleep(1)
     driver.find_element_by_xpath('//*[@id="carCodeSource"]/label[2]/span[1]/input').click()
+    sleep(2)
+    #填写备注
+    driver.find_element_by_xpath('//*[@id="remark"]').send_keys("0124迭代工单测试，哈哈哈哈")
+    sleep(1)
     # 点击保存工单
     sleep(2)
-    WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '//*[@id="root"]/div/div/div[2]/div[3]/div/div[2]/div[2]/div[1]/div[2]/div/div[3]/div[1]/div[2]/div/div/div/div[2]/div[2]/div/span/button'))).click()
+    WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '//*[@id="root"]/div/div/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[2]/div/div[3]/div[1]/div[2]/div/div/div/div[2]/div[2]/div/span/button'))).click()
     sleep(5)
     """
     # 点击小马达管理专用
