@@ -261,7 +261,7 @@ class cheyuan(Base):
         md = self.search_elements(Page.xzmd)
         #md[random.randint(0, 3)].click()
         # print(md)
-        md[1].click()
+        md[0].click()
         self.click_element(Page.okan)
         # self.click_element(Page.baocun)
         # self.get_toast("小马达：","小马达：保存成功")
