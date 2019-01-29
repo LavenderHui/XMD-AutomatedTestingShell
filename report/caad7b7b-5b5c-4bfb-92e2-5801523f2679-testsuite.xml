@@ -1,0 +1,459 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1548728606814" stop="1548729366497">
+  <name>test_car_source</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1548728606814" status="passed" stop="1548728671727">
+      <name>Test_1.test_process_dl</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548728606818" status="passed" stop="1548728646161">
+          <name>获取权限成功</name>
+          <title>获取权限成功</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1548728646161" status="passed" stop="1548728671727">
+          <name>输入账号密码</name>
+          <title>输入账号密码</title>
+          <attachments>
+            <attachment source="8b5114dc-95d2-4264-8c22-bf02ec7e3b5f-attachment.txt" title="用户登陆信息：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548728671730" status="passed" stop="1548728679162">
+      <name>Test_1.test_process_djdl</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548728671731" status="passed" stop="1548728679162">
+          <name>点击登录</name>
+          <title>点击登录</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548728679163" status="passed" stop="1548728711278">
+      <name>Test_1.test_process_button</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548728679165" status="passed" stop="1548728711277">
+          <name>进入添加车源页，直接在添加车源页点击右上角“保存”按钮</name>
+          <title>进入添加车源页，直接在添加车源页点击右上角“保存”按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548728711280" status="passed" stop="1548728723210">
+      <name>Test_1.test_process_xj</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548728711282" status="passed" stop="1548728723209">
+          <name>拍摄vim照片</name>
+          <title>拍摄vim照片</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548728723211" status="passed" stop="1548728728956">
+      <name>Test_1.test_process_fou</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548728723212" status="passed" stop="1548728728955">
+          <name>选择不识别vin码</name>
+          <title>选择不识别vin码</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548728728960" status="passed" stop="1548728744387">
+      <name>Test_1.test_process_bxl</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548728728962" status="passed" stop="1548728744386">
+          <name>输入表显历程</name>
+          <title>输入表显历程</title>
+          <attachments>
+            <attachment source="edaa1fee-56a2-4f85-b7ff-152303bb96c7-attachment.txt" title="采集车源信息：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548728744391" status="passed" stop="1548728769366">
+      <name>Test_1.test_process_cxm</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548728744393" status="passed" stop="1548728769366">
+          <name>选择车型</name>
+          <title>选择车型</title>
+          <attachments>
+            <attachment source="db7389ba-c943-4d3a-a3e3-53bda20c8c15-attachment.txt" title="车型选择信息：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548728769376" status="passed" stop="1548728785440">
+      <name>Test_1.test_process_input_vin</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548728769377" status="passed" stop="1548728785439">
+          <name>输入vin码</name>
+          <title>输入vin码</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548728785441" status="passed" stop="1548728804688">
+      <name>Test_1.test_process_bxxj</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548728785442" status="passed" stop="1548728804687">
+          <name>点击表显相机</name>
+          <title>点击表显相机</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548728804690" status="passed" stop="1548728809636">
+      <name>Test_1.test_process_cyxj</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548728804692" status="passed" stop="1548728809635">
+          <name>点击车源相机</name>
+          <title>点击车源相机</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548728809637" status="passed" stop="1548729215954">
+      <name>Test_1.test_process_clzp</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548728809639" status="passed" stop="1548729215953">
+          <name>拍摄车辆照片</name>
+          <title>拍摄车辆照片</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548729215959" status="passed" stop="1548729225976">
+      <name>Test_1.test_process_clys</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548729215963" status="passed" stop="1548729225976">
+          <name>选择车辆颜色</name>
+          <title>选择车辆颜色</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548729225979" status="passed" stop="1548729237293">
+      <name>Test_1.test_processnsys</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548729225983" status="passed" stop="1548729237293">
+          <name>选择车内饰颜色</name>
+          <title>选择车内饰颜色</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548729237295" status="passed" stop="1548729257522">
+      <name>Test_1.test_process_clxz</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548729237296" status="passed" stop="1548729257522">
+          <name>选择车辆性质</name>
+          <title>选择车辆性质</title>
+          <attachments>
+            <attachment source="5b1bbdc1-cee0-40cc-acc3-ba414ea455d6-attachment.txt" title="采集车源信息：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548729257528" status="passed" stop="1548729267560">
+      <name>Test_1.test_process_cdrq</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548729257529" status="passed" stop="1548729267559">
+          <name>选择初登日期</name>
+          <title>选择初登日期</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548729267561" status="passed" stop="1548729269379">
+      <name>Test_1.test_process_hd</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548729267563" status="passed" stop="1548729269379">
+          <name>屏幕下滑</name>
+          <title>屏幕下滑</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548729269381" status="passed" stop="1548729283365">
+      <name>Test_1.test_process_sj</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548729269383" status="passed" stop="1548729283364">
+          <name>填写售价</name>
+          <title>填写售价</title>
+          <attachments>
+            <attachment source="a4c718d4-ab8a-4d4e-852a-1e5aa9e1b650-attachment.txt" title="车辆价格:" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548729283372" status="passed" stop="1548729315215">
+      <name>Test_1.test_process_clbz</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548729283373" status="passed" stop="1548729315214">
+          <name>填写车辆备注</name>
+          <title>填写车辆备注</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548729315220" status="passed" stop="1548729320189">
+      <name>Test_1.test_process_sc</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548729315221" status="passed" stop="1548729320188">
+          <name>点击保存按钮</name>
+          <title>点击保存按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548729320195" status="passed" stop="1548729333950">
+      <name>Test_1.test_process_che</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548729320197" status="passed" stop="1548729333950">
+          <name>对保存本地的新采集车源进行上传</name>
+          <title>对保存本地的新采集车源进行上传</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548729333952" status="passed" stop="1548729359495">
+      <name>Test_1.test_process_fhz</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548729333954" status="passed" stop="1548729359494">
+          <name>返回，我的</name>
+          <title>返回，我的</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548729359497" status="passed" stop="1548729360531">
+      <name>Test_1.test_process_hd1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548729359498" status="passed" stop="1548729360531">
+          <name>屏幕上滑</name>
+          <title>屏幕上滑</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548729360534" status="passed" stop="1548729366497">
+      <name>Test_1.test_process_tuichu</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13468-MainThread"/>
+        <label name="host" value="DESKTOP-08IDGDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548729360535" status="passed" stop="1548729366496">
+          <name>退出登录</name>
+          <title>退出登录</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

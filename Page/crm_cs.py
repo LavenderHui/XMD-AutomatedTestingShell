@@ -1,5 +1,5 @@
 a=10000000000
-for i in range(1,2):
+for i in range(1,10):
     b=a+i
     print(b)
     import random
@@ -62,7 +62,7 @@ for i in range(1,2):
     driver.find_element_by_xpath('//*[@id="telephone"]').send_keys(salt)
     sleep(1)
     # 点击填写姓名
-    driver.find_element_by_xpath('//*[@id="name"]').send_keys("准新车全流程工单%s" % selt1)
+    driver.find_element_by_xpath('//*[@id="name"]').send_keys("关店下架测试%s" % selt1)
     sleep(1)
     driver.find_element_by_xpath('//*[@id="gender"]/label[1]/span[1]/input').click()
     sleep(1)
@@ -92,8 +92,12 @@ for i in range(1,2):
     sleep(2)
     slide = "window.scrollTo(0, 300)"
     driver.execute_script(slide)
+    sleep(1)
+    #本地用户“是”
+    driver.find_element_by_xpath('//*[@id="localCustomer"]/label[1]/span[1]/input').click()
+    sleep(2)
     # 点击来源渠道
-    WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="root"]/div/div/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[2]/div/div[3]/div[1]/div[2]/div/div/div/form/div[2]/div[2]/div/span/div/span/i'))).click()
+    WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="root"]/div/div/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[2]/div[2]/div[3]/div[1]/div[2]/div/div/div/form/div[3]/div[2]/div/span/div/span/input'))).click()
     # 选择淘车网
     driver.find_element_by_xpath('/html/body/div[4]/div/div/div/ul/li[4]').click()
     sleep(1)
@@ -112,7 +116,7 @@ for i in range(1,2):
     driver.execute_script(slide31)
     sleep(4)
     # 屏幕下滑
-    driver.find_element_by_xpath('//*[@id="type"]').send_keys("000536857")
+    driver.find_element_by_xpath('//*[@id="type"]').send_keys("000545551")
     # 屏幕上滑
     slide2 = "window.scrollTo(1700,1600)"
     driver.execute_script(slide2)
