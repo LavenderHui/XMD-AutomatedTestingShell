@@ -67,7 +67,7 @@ class cheyuan(Base):
         Base.__init__(self, deiver)
 
     # 登录采集车源账号
-    def input_login(self, name="10000000145", passwo="uat.portal"):
+    def input_login(self, name="19900008008", passwo="iloveyixin"):
         allure.attach("用户登陆信息：", "用户名:%s\n密码:%s" % (name, passwo))
         self.input_element(Page.username, name)
         self.input_element(Page.password, passwo)
@@ -259,9 +259,9 @@ class cheyuan(Base):
         self.click_element(Page.jia)
         self.click_element(Page.ss)
         md = self.search_elements(Page.xzmd)
-        md[random.randint(0, 2)].click()
+        #md[random.randint(0, 2)].click()
         # print(md)
-        #md[0].click()
+        md[0].click()
         self.click_element(Page.okan)
         # self.click_element(Page.baocun)
         # self.get_toast("小马达：","小马达：保存成功")

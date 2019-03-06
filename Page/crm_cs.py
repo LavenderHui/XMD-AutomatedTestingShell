@@ -1,5 +1,5 @@
 a=10000000000
-for i in range(1,2):
+for i in range(1,a):
     b=a+i
     print(b)
     import random
@@ -114,7 +114,7 @@ for i in range(1,2):
     driver.find_element_by_xpath('/html/body/div[4]/div/div/div/ul[2]/li').click()
     sleep(1)
     '''
-    # 选择用户意向等级为3天  
+    # 选择用户意向等级为3天
     driver.find_element_by_xpath('//*[@id="buyCarPlan"]/div/div/div').click()
     driver.find_element_by_xpath('/html/body/div[5]/div/div/div/ul/li[1]').click()
     sleep(2)
@@ -150,6 +150,7 @@ for i in range(1,2):
     driver.find_element_by_xpath('//*[@id="kancheTimeType"]/label[2]/span[2]')
     sleep(1)
     # 点击保存工单
+    driver.find_element_by_xpath('//*[@id="kancheTimeType"]/label[1]/span[1]').click()
     sleep(2)
     WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '//*[@id="root"]/div/div/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div/div/div[2]/div[2]/div/span/button'))).click()
     sleep(5)
@@ -183,4 +184,4 @@ for i in range(1,2):
     sleep(2)
     """
     # 关闭浏览器
-    #driver.quit()
+    driver.quit()

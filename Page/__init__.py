@@ -156,7 +156,7 @@ cllb=(By.XPATH,"//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_ri
 # 车辆类别选择七座以下普通车辆
 cllbxz=(By.XPATH,"//android.widget.TextView[@resource-id='android:id/text1' and @text='七座（含）以下普通小型汽车']")
 # 非营运车辆
-fyy=(By.XPATH,"//android.widget.TextView[@resource-id='android:id/text1' and @text='非营运']")
+fyy=(By.XPATH,"//android.widget.TextView[@resource-id='android:id/text1' and @text='非营运车辆']")
 # 初等日期
 cdrq=(By.XPATH,"//android.widget.TextView[@resource-id='com.kanche.mars:id/tv_right' and @text='请选择初登日期']")
 # 确定
